@@ -1,215 +1,215 @@
 import React from "react";
-import "./style.css"
+import ViewpageCSS from "./style.module.css"
 
 const Index = () => {
   return (
     <>
       <article
-        className="post-30512 page type-page status-publish ast-article-single remove-featured-img-padding"
-        id="overviewPage"
-        itemtype="https://schema.org/CreativeWork"
-        itemscope="itemscope"
-      >
-        <header className="entry-header ast-no-thumbnail ast-no-title ast-header-without-markup"></header>
-        <div className="entry-content clear" itemprop="text">
-          <div
-            data-elementor-type="wp-page"
-            data-elementor-id="30512"
-            className="elementor elementor-30512"
-          >
-            <section
-              data-id="647bb5f9"
-              data-element_type="section"
-              data-settings='{"background_background":"classic"}'
-              className="elementor-section elementor-top-section elementor-element elementor-element-647bb5f9 elementor-section-boxed elementor-section-height-default elementor-section-height-default nitro-lazy"
+  className={`${ViewpageCSS["post-30512"]} ${ViewpageCSS.page} ${ViewpageCSS["type-page"]} ${ViewpageCSS["status-publish"]} ${ViewpageCSS["ast-article-single"]} ${ViewpageCSS["remove-featured-img-padding"]}`}
+  id="overviewPage"
+  itemScope="itemscope"
+  itemType="https://schema.org/CreativeWork"
+>
+<header
+  className={`${ViewpageCSS["entry-header"]} ${ViewpageCSS["ast-no-thumbnail"]} ${ViewpageCSS["ast-no-title"]} ${ViewpageCSS["ast-header-without-markup"]}`}
+></header>
+<div className={`${ViewpageCSS["entry-content"]} ${ViewpageCSS.clear}`} itemprop="text">
+<div
+  data-elementor-type="wp-page"
+  data-elementor-id="30512"
+  className={`${ViewpageCSS.elementor} ${ViewpageCSS["elementor-30512"]}`}
+>
+<section
+  data-id="647bb5f9"
+  data-element_type="section"
+  data-settings='{"background_background":"classic"}'
+  className={`${ViewpageCSS["elementor-section"]} ${ViewpageCSS["elementor-top-section"]} ${ViewpageCSS["elementor-element"]} ${ViewpageCSS["elementor-element-647bb5f9"]} ${ViewpageCSS["elementor-section-boxed"]} ${ViewpageCSS["elementor-section-height-default"]} ${ViewpageCSS["elementor-section-height-default"]} ${ViewpageCSS["nitro-lazy"]}`}
+>
+  <div className={ViewpageCSS["elementor-container"]}>
+    <div
+      className={`${ViewpageCSS["elementor-column"]} ${ViewpageCSS["elementor-col-50"]} ${ViewpageCSS["elementor-top-column"]} ${ViewpageCSS["elementor-element"]} ${ViewpageCSS["elementor-element-21e4f7ee"]}`}
+      data-id="21e4f7ee"
+      data-element_type="column"
+    >
+      <div className={`${ViewpageCSS["elementor-widget-wrap"]} ${ViewpageCSS["elementor-element-populated"]}`}>
+        <div
+          className={`${ViewpageCSS["elementor-element"]} ${ViewpageCSS["elementor-element-7a20b638"]} ${ViewpageCSS["elementor-widget"]} ${ViewpageCSS["elementor-widget-heading"]}`}
+          data-id="7a20b638"
+          data-element_type="widget"
+          data-widget_type="heading.default"
+        >
+          <div className={ViewpageCSS["elementor-widget-container"]}>
+            <h1 className={`${ViewpageCSS["elementor-heading-title"]} ${ViewpageCSS["elementor-size-default"]}`}>
+              Freezone Business <br />
+              Setup in UAE
+            </h1>
+          </div>
+        </div>
+        <div
+          className={`${ViewpageCSS["elementor-element"]} ${ViewpageCSS["elementor-element-1a9bbbc"]} ${ViewpageCSS["elementor-widget"]} ${ViewpageCSS["elementor-widget-text-editor"]}`}
+          data-id="1a9bbbc"
+          data-element_type="widget"
+          data-widget_type="text-editor.default"
+        >
+          <div className={ViewpageCSS["elementor-widget-container"]}>
+            <p>
+              <strong>
+                Explore boundless opportunities with A&amp;A
+                Associate LLC&#8217;s Freezone company formation in
+                Dubai, UAE !&nbsp;
+              </strong>
+            </p>
+          </div>
+        </div>
+        <div
+          className={`${ViewpageCSS["elementor-element"]} ${ViewpageCSS["elementor-element-274c5ed9"]} ${ViewpageCSS["elementor-mobile-align-center"]} ${ViewpageCSS["elementor-widget"]} ${ViewpageCSS["elementor-widget-button"]}`}
+          data-id="274c5ed9"
+          data-element_type="widget"
+          data-widget_type="button.default"
+        >
+          <div className={ViewpageCSS["elementor-widget-container"]}>
+            <div className={ViewpageCSS["elementor-button-wrapper"]}>
+              <a
+                className={`${ViewpageCSS["elementor-button"]} ${ViewpageCSS["elementor-button-link"]} ${ViewpageCSS["elementor-size-sm"]}`}
+                href="#free-cunsultation"
+              >
+                <span className={ViewpageCSS["elementor-button-content-wrapper"]}>
+                  <span className={ViewpageCSS["elementor-button-text"]}>
+                    Free Consultation
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className={`${ViewpageCSS["elementor-column"]} ${ViewpageCSS["elementor-col-50"]} ${ViewpageCSS["elementor-top-column"]} ${ViewpageCSS["elementor-element"]} ${ViewpageCSS["elementor-element-13e78274"]}`}
+      data-id="13e78274"
+      data-element_type="column"
+    >
+      <div className={ViewpageCSS["elementor-widget-wrap"]}></div>
+    </div>
+  </div>
+</section>
+
+<section
+  className={`${ViewpageCSS["elementor-section"]} ${ViewpageCSS["elementor-top-section"]} ${ViewpageCSS["elementor-element"]} ${ViewpageCSS["elementor-element-635095e0"]} ${ViewpageCSS["elementor-section-boxed"]} ${ViewpageCSS["elementor-section-height-default"]} ${ViewpageCSS["elementor-section-height-default"]}`}
+  data-id="635095e0"
+  data-element_type="section"
+  data-settings='{"background_background":"classic"}'
+>
+<div className={`${ViewpageCSS["elementor-container"]} ${ViewpageCSS["elementor-column-gap-default"]}`}>
+    <div
+      className={`${ViewpageCSS["elementor-column"]} ${ViewpageCSS["elementor-col-100"]} ${ViewpageCSS["elementor-top-column"]} ${ViewpageCSS["elementor-element"]} ${ViewpageCSS["elementor-element-7271bbf2"]}`}
+      data-id="7271bbf2"
+      data-element_type="column"
+    >
+      <div className={`${ViewpageCSS["elementor-widget-wrap"]} ${ViewpageCSS["elementor-element-populated"]}`}>
+        <div
+          className={`${ViewpageCSS["elementor-element"]} ${ViewpageCSS["elementor-element-490b0d6c"]} ${ViewpageCSS["uael-nav-menu__align-center"]} ${ViewpageCSS["uael-nav-menu__breakpoint-none"]} ${ViewpageCSS["uael-submenu-open-hover"]} ${ViewpageCSS["uael-submenu-icon-arrow"]} ${ViewpageCSS["uael-submenu-animation-none"]} ${ViewpageCSS["uael-link-redirect-child"]} ${ViewpageCSS["elementor-widget"]} ${ViewpageCSS["elementor-widget-uael-nav-menu"]}`}
+          data-id="490b0d6c"
+          data-element_type="widget"
+          data-settings='{"distance_from_menu":{"unit":"px","size":"","sizes":[]},"distance_from_menu_tablet":{"unit":"px","size":"","sizes":[]},"distance_from_menu_mobile":{"unit":"px","size":"","sizes":[]}}'
+          data-widget_type="uael-nav-menu.default"
+        >
+          <div className={ViewpageCSS["elementor-widget-container"]}>
+            <div
+              className={`${ViewpageCSS["uael-nav-menu"]} ${ViewpageCSS["uael-layout-horizontal"]} ${ViewpageCSS["uael-nav-menu-layout"]} ${ViewpageCSS["uael-pointer__none"]}`}
+              data-layout="horizontal"
             >
-              <div className="elementor-container elementor-column-gap-default">
-                <div
-                  className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-21e4f7ee"
-                  data-id="21e4f7ee"
-                  data-element_type="column"
-                >
-                  <div className="elementor-widget-wrap elementor-element-populated">
-                    <div
-                      className="elementor-element elementor-element-7a20b638 elementor-widget elementor-widget-heading"
-                      data-id="7a20b638"
-                      data-element_type="widget"
-                      data-widget_type="heading.default"
-                    >
-                      <div className="elementor-widget-container">
-                        <h1 className="elementor-heading-title elementor-size-default">
-                          Freezone Business <br />
-                          Setup in UAE
-                        </h1>
-                      </div>
-                    </div>
-                    <div
-                      className="elementor-element elementor-element-1a9bbbc elementor-widget elementor-widget-text-editor"
-                      data-id="1a9bbbc"
-                      data-element_type="widget"
-                      data-widget_type="text-editor.default"
-                    >
-                      <div className="elementor-widget-container">
-                        <p>
-                          <strong>
-                            Explore boundless opportunities with A&amp;A
-                            Associate LLC&#8217;s Freezone company formation in
-                            Dubai, UAE !&nbsp;
-                          </strong>
-                        </p>
-                      </div>
-                    </div>
-                    <div
-                      className="elementor-element elementor-element-274c5ed9 elementor-mobile-align-center elementor-widget elementor-widget-button"
-                      data-id="274c5ed9"
-                      data-element_type="widget"
-                      data-widget_type="button.default"
-                    >
-                      <div className="elementor-widget-container">
-                        <div className="elementor-button-wrapper">
-                          <a
-                            className="elementor-button elementor-button-link elementor-size-sm"
-                            href="#free-cunsultation"
-                          >
-                            <span className="elementor-button-content-wrapper">
-                              <span className="elementor-button-text">
-                                Free Consultation
-                              </span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-13e78274"
-                  data-id="13e78274"
-                  data-element_type="column"
-                >
-                  <div className="elementor-widget-wrap"></div>
-                </div>
+              <div
+                role="button"
+                className={`${ViewpageCSS["uael-nav-menu__toggle"]} ${ViewpageCSS["elementor-clickable"]}`}
+              >
+                <span className={ViewpageCSS["screen-reader-text"]}>
+                  Main Menu
+                </span>
+                <div className={ViewpageCSS["uael-nav-menu-icon"]}></div>
               </div>
-            </section>
-            <section
-              className="elementor-section elementor-top-section elementor-element elementor-element-635095e0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-              data-id="635095e0"
-              data-element_type="section"
-              data-settings='{"background_background":"classic"}'
-            >
-              <div className="elementor-container elementor-column-gap-default">
-                <div
-                  className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7271bbf2"
-                  data-id="7271bbf2"
-                  data-element_type="column"
-                >
-                  <div className="elementor-widget-wrap elementor-element-populated">
-                    <div
-                      className="elementor-element elementor-element-490b0d6c uael-nav-menu__align-center uael-nav-menu__breakpoint-none uael-submenu-open-hover uael-submenu-icon-arrow uael-submenu-animation-none uael-link-redirect-child elementor-widget elementor-widget-uael-nav-menu"
-                      data-id="490b0d6c"
-                      data-element_type="widget"
-                      data-settings='{"distance_from_menu":{"unit":"px","size":"","sizes":[]},"distance_from_menu_tablet":{"unit":"px","size":"","sizes":[]},"distance_from_menu_mobile":{"unit":"px","size":"","sizes":[]}}'
-                      data-widget_type="uael-nav-menu.default"
+              <nav
+                className={`${ViewpageCSS["uael-nav-menu__layout-horizontal"]} ${ViewpageCSS["uael-nav-menu__submenu-arrow"]}`}
+                data-toggle-icon
+                data-close-icon
+                data-full-width
+              >
+                <ul className={`${ViewpageCSS["uael-nav-menu"]} ${ViewpageCSS["uael-nav-menu-custom"]} ${ViewpageCSS["uael-custom-wrapper"]}`}>
+                  <li
+                    className={`${ViewpageCSS["menu-item"]} ${ViewpageCSS["menu-item-has-children"]} ${ViewpageCSS["parent"]} ${ViewpageCSS["parent-has-no-child"]} ${ViewpageCSS["elementor-repeater-item-91c2175"]}`}
+                    data-dropdown-width="default"
+                    data-dropdown-pos="left"
+                  >
+                    <a href="#" className={ViewpageCSS["uael-menu-item"]}>
+                      Overview
+                      <span className={`${ViewpageCSS["uael-menu-toggle"]} ${ViewpageCSS["sub-arrow"]} ${ViewpageCSS["parent-item"]}`}>
+                        <i className={ViewpageCSS["fa"]}></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li
+                    className={`${ViewpageCSS["menu-item"]} ${ViewpageCSS["menu-item-has-children"]} ${ViewpageCSS["parent"]} ${ViewpageCSS["parent-has-no-child"]} ${ViewpageCSS["elementor-repeater-item-7846707"]}`}
+                    data-dropdown-width="default"
+                    data-dropdown-pos="left"
+                  >
+                    <a
+                      href="../uae-freezones-business-locations/index.html"
+                      className={ViewpageCSS["uael-menu-item"]}
                     >
-                      <div className="elementor-widget-container">
-                        <div
-                          className="uael-nav-menu uael-layout-horizontal uael-nav-menu-layout uael-pointer__none"
-                          data-layout="horizontal"
-                        >
-                          <div
-                            role="button"
-                            className="uael-nav-menu__toggle elementor-clickable"
-                          >
-                            <span className="screen-reader-text">
-                              Main Menu
-                            </span>
-                            <div className="uael-nav-menu-icon"></div>
-                          </div>
-                          <nav
-                            className="uael-nav-menu__layout-horizontal uael-nav-menu__submenu-arrow"
-                            data-toggle-icon
-                            data-close-icon
-                            data-full-width
-                          >
-                            <ul className="uael-nav-menu uael-nav-menu-custom uael-custom-wrapper">
-                              <li
-                                className="menu-item menu-item-has-children parent parent-has-no-child elementor-repeater-item-91c2175"
-                                data-dropdown-width="default"
-                                data-dropdown-pos="left"
-                              >
-                                <a href="#" className="uael-menu-item">
-                                  Overview
-                                  <span className="uael-menu-toggle sub-arrow parent-item">
-                                    <i className="fa"></i>
-                                  </span>
-                                </a>
-                              </li>
-                              <li
-                                className="menu-item menu-item-has-children parent parent-has-no-child elementor-repeater-item-7846707"
-                                data-dropdown-width="default"
-                                data-dropdown-pos="left"
-                              >
-                                <a
-                                  href="../uae-freezones-business-locations/index.html"
-                                  className="uael-menu-item"
-                                >
-                                  Locations
-                                  <span className="uael-menu-toggle sub-arrow parent-item">
-                                    <i className="fa"></i>
-                                  </span>
-                                </a>
-                              </li>
-                              <li
-                                className="menu-item menu-item-has-children parent parent-has-no-child elementor-repeater-item-3b98fb8"
-                                data-dropdown-width="default"
-                                data-dropdown-pos="left"
-                              >
-                                <a
-                                  href="../freezone-business-setup-advantages/index.html"
-                                  className="uael-menu-item"
-                                >
-                                  Advantages
-                                  <span className="uael-menu-toggle sub-arrow parent-item">
-                                    <i className="fa"></i>
-                                  </span>
-                                </a>
-                              </li>
-                              <li
-                                className="menu-item menu-item-has-children parent parent-has-no-child elementor-repeater-item-412d41c"
-                                data-dropdown-width="default"
-                                data-dropdown-pos="left"
-                              >
-                                <a
-                                  href="../freezone-company-setup-consultation/index.html"
-                                  className="uael-menu-item"
-                                >
-                                  Consultation
-                                  <span className="uael-menu-toggle sub-arrow parent-item">
-                                    <i className="fa"></i>
-                                  </span>
-                                </a>
-                              </li>
-                            </ul>
-                          </nav>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section
-              className="elementor-section elementor-top-section elementor-element elementor-element-77dbfe95 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-              data-id="77dbfe95"
-              data-element_type="section"
-            >
-              <div className="elementor-container elementor-column-gap-default">
-                <div
-                  className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1d14e830"
-                  data-id="1d14e830"
-                  data-element_type="column"
-                >
-                  <div className="elementor-widget-wrap elementor-element-populated">
+                      Locations
+                      <span className={`${ViewpageCSS["uael-menu-toggle"]} ${ViewpageCSS["sub-arrow"]} ${ViewpageCSS["parent-item"]}`}>
+                        <i className={ViewpageCSS["fa"]}></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li
+                    className={`${ViewpageCSS["menu-item"]} ${ViewpageCSS["menu-item-has-children"]} ${ViewpageCSS["parent"]} ${ViewpageCSS["parent-has-no-child"]} ${ViewpageCSS["elementor-repeater-item-3b98fb8"]}`}
+                    data-dropdown-width="default"
+                    data-dropdown-pos="left"
+                  >
+                    <a
+                      href="../freezone-business-setup-advantages/index.html"
+                      className={ViewpageCSS["uael-menu-item"]}
+                    >
+                      Advantages
+                      <span className={`${ViewpageCSS["uael-menu-toggle"]} ${ViewpageCSS["sub-arrow"]} ${ViewpageCSS["parent-item"]}`}>
+                        <i className={ViewpageCSS["fa"]}></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li
+                    className={`${ViewpageCSS["menu-item"]} ${ViewpageCSS["menu-item-has-children"]} ${ViewpageCSS["parent"]} ${ViewpageCSS["parent-has-no-child"]} ${ViewpageCSS["elementor-repeater-item-412d41c"]}`}
+                    data-dropdown-width="default"
+                    data-dropdown-pos="left"
+                  >
+                    <a
+                      href="../freezone-company-setup-consultation/index.html"
+                      className={ViewpageCSS["uael-menu-item"]}
+                    >
+                      Consultation
+                      <span className={`${ViewpageCSS["uael-menu-toggle"]} ${ViewpageCSS["sub-arrow"]} ${ViewpageCSS["parent-item"]}`}>
+                        <i className={ViewpageCSS["fa"]}></i>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className={`${ViewpageCSS['elementor-section']} ${ViewpageCSS['elementor-top-section']} ${ViewpageCSS['elementor-section-content-middle']} ${ViewpageCSS['elementor-section-boxed']} ${ViewpageCSS['elementor-section-height-default']}`}>
+<div className={`${ViewpageCSS['elementor-container']} ${ViewpageCSS['elementor-column-gap-default']}`}>
+<div
+      className={`${ViewpageCSS['elementor-column']} ${ViewpageCSS['elementor-col-50']} ${ViewpageCSS['elementor-top-column']} ${ViewpageCSS['elementor-element']} ${ViewpageCSS['elementor-element-1d14e830']}`}
+      data-id="1d14e830"
+      data-element_type="column"
+    >
+                  <div className={`${ViewpageCSS['elementor-widget-wrap']} ${ViewpageCSS['elementor-element-populated']}`}>
                     <section
                       className="elementor-section elementor-inner-section elementor-element elementor-element-39d2e8be elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                       data-id="39d2e8be"
@@ -438,6 +438,7 @@ const Index = () => {
                 </div>
               </div>
             </section>
+            
             <section
               className="elementor-section elementor-top-section elementor-element elementor-element-2c16568f elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
               data-id="2c16568f"
