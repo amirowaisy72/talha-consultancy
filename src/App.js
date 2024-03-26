@@ -16,7 +16,11 @@ import MainlandLicensing from "./Components/Pages/CompanySetup/Mainland/Licensin
 import MainlandCompanyType from "./Components/Pages/CompanySetup/Mainland/CompanyType/Index";
 import MainlandAdvantages from "./Components/Pages/CompanySetup/Mainland/Advantages/Index";
 import MainlandConsultation from "./Components/Pages/CompanySetup/Mainland/Consultation/Index";
-import MainlandOffers from "./Components/Pages/CompanySetup/Mainland/Offers/Index";
+import OffshoreOverview from "./Components/Pages/CompanySetup/Offshore/Overview/Index"
+import OffshoreLocations from "./Components/Pages/CompanySetup/Offshore/Locations/Index"
+import OffshoreAdvantages from "./Components/Pages/CompanySetup/Offshore/Advantages/Index"
+import OffshoreConsultation from "./Components/Pages/CompanySetup/Offshore/Consultation/Index"
+import OtherServices from "./Components/Pages/CompanySetup/OtherServices/Index"
 
 function App() {
   return (
@@ -102,6 +106,37 @@ function App() {
                         exact
                         path="/mainland/consultation"
                         element={<MainlandConsultation />}
+                      ></Route>
+                      {/* OffShore */}
+                      <Route
+                        exact
+                        path="/offshore/overview"
+                        element={<OffshoreOverview />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/offshore/locations"
+                        element={<OffshoreLocations />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/offshore/advantages"
+                        element={<OffshoreAdvantages />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/offshore/consultation"
+                        element={<OffshoreConsultation />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/otherServices"
+                        element={<OtherServices />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/otherServices"
+                        element={<OtherServices />}
                       ></Route>
                      
                     </Routes>

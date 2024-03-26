@@ -315,49 +315,45 @@ const NavBar = () => {
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37495"
                                           id="mega-menu-item-37495"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/offshore-company-formation/index.html"
+                                            to="/offshore/overview"
                                           >
                                             Overview
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37496"
                                           id="mega-menu-item-37496"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/offshore-company-setup-locations/index.html"
+                                            to="/offshore/locations"
                                           >
                                             Locations
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37497"
                                           id="mega-menu-item-37497"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/offshore-company-setup-advantages/index.html"
+                                            to="/offshore/advantages"
                                           >
                                             Advantages
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37498"
                                           id="mega-menu-item-37498"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/offshore-company-setup-consultation/index.html"
+                                            to="/offshore/consultation"
                                           >
                                             Free Consultation
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37499"
@@ -390,7 +386,7 @@ const NavBar = () => {
                                     >
                                       <div className="textwidget custom-html-widget">
                                         <h4>
-                                          <a href="#">Other Services</a>
+                                          <Link to="/otherServices">Other Services</Link>
                                         </h4>
                                       </div>
                                     </li>

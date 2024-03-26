@@ -1,0 +1,9 @@
+.border-container {
+    border: 2px solid transparent; /* Set initial border */
+    transition: border-color 0.3s; /* Smooth transition for border color change */
+  }
+  
+  .border-container:hover {
+    border-color: green; /* Change border color on hover */
+  }
+  

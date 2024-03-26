@@ -1,10 +1,9 @@
 import React from "react";
 import "./output.css";
 import Section1 from "./Section1/Index";
+import Bars3 from "../../../../CommonComponents/Bars3/Index";
 import Section2 from "./Section2/Index";
-import Bars2 from "../../../../CommonComponents/Bars2/Index";
 import ContactusForm from "../../../../CommonComponents/ContactUseForm/Index";
-import ConsultationTeam from "../../../../CommonComponents/ConsultationTeam/Index";
 import GovtAgencies from "../../../../CommonComponents/GovttAgencies/Index";
 
 const Index = () => {
@@ -24,10 +23,14 @@ const Index = () => {
             className="elementor elementor-30512"
           >
             <Section1 />
-            <Bars2 />
-            <Section2 />
             <div style={{ marginBottom: "30px" }}>
-              <center>
+              <Bars3 />
+            </div>
+            <div style={{ marginBottom: "30px" }}>
+              <Section2 />
+            </div>
+            <div style={{ marginBottom: "30px" }}>
+              <div style={{ display: "flex", justifyContent: "center" }}>
                 <div
                   style={{
                     backgroundColor: "#f0f0f0",
@@ -40,10 +43,7 @@ const Index = () => {
                 >
                   <ContactusForm />
                 </div>
-              </center>
-            </div>
-            <div style={{ marginBottom: "30px" }}>
-              <ConsultationTeam />
+              </div>
             </div>
             <div style={{ marginBottom: "30px" }}>
               <center>

@@ -1,11 +1,15 @@
 import React from "react";
 import "./output.css";
 import Section1 from "./Section1/Index";
+import Bars3 from "../../../../CommonComponents/Bars3/Index";
 import Section2 from "./Section2/Index";
-import Bars2 from "../../../../CommonComponents/Bars2/Index";
+import Section3 from "./Section3/Index";
+import Section4 from "./Section4/Index";
+import Section5 from "./Section5/Index";
 import ContactusForm from "../../../../CommonComponents/ContactUseForm/Index";
-import ConsultationTeam from "../../../../CommonComponents/ConsultationTeam/Index";
-import GovtAgencies from "../../../../CommonComponents/GovttAgencies/Index";
+import Section6 from "./Section6/Index";
+import Section7 from "./Section7/Index";
+import Section16 from "./Section16/Index";
 
 const Index = () => {
   return (
@@ -24,10 +28,27 @@ const Index = () => {
             className="elementor elementor-30512"
           >
             <Section1 />
-            <Bars2 />
-            <Section2 />
             <div style={{ marginBottom: "30px" }}>
-              <center>
+              <Bars3 />
+            </div>
+            <div style={{ marginBottom: "30px" }}>
+              <Section2 />
+            </div>
+
+            <div style={{ marginBottom: "30px" }}>
+              <Section3 />
+            </div>
+
+            <div style={{ marginBottom: "30px" }}>
+              <Section4 />
+            </div>
+
+            <div style={{ marginBottom: "30px" }}>
+              <Section5 />
+            </div>
+
+            <div style={{ marginBottom: "30px" }}>
+              <div style={{ display: "flex", justifyContent: "center" }}>
                 <div
                   style={{
                     backgroundColor: "#f0f0f0",
@@ -40,23 +61,18 @@ const Index = () => {
                 >
                   <ContactusForm />
                 </div>
-              </center>
+              </div>
             </div>
+
             <div style={{ marginBottom: "30px" }}>
-              <ConsultationTeam />
+              <Section6 />
             </div>
-            <div style={{ marginBottom: "30px" }}>
-              <center>
-                <GovtAgencies
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-around",
-                    alignItems: "center",
-                    flexWrap: "wrap",
-                  }}
-                ></GovtAgencies>
-              </center>
+
+            <div style={{marginBottom:"30px"}}>
+              <Section7 />
             </div>
+
+            <Section16 />
           </div>
           <span className="cp-load-after-post"></span>
         </div>
