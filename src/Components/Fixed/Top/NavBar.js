@@ -119,7 +119,7 @@ const NavBar = () => {
                                           id="mega-menu-item-37484"
                                         >
                                           <Link
-                                            to="/overview"
+                                            to="/freezone/overview"
                                             className="mega-menu-link"
                                           >
                                             Overview
@@ -129,49 +129,45 @@ const NavBar = () => {
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37485"
                                           id="mega-menu-item-37485"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
+                                            to="/freezone/locations"
                                             className="mega-menu-link"
-                                            href="dubai/uae-freezones-business-locations/index.html"
                                           >
                                             Locations
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37486"
                                           id="mega-menu-item-37486"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/freezone-business-setup-advantages/index.html"
+                                            to="/freezone/advantages"
                                           >
                                             Advantages
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37487"
                                           id="mega-menu-item-37487"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/freezone-company-setup-consultation/index.html"
+                                            to="/freezone/consultation"
                                           >
                                             Free Consultation
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37488"
                                           id="mega-menu-item-37488"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/offers/index.html"
+                                            to="/freezone/offers"
                                           >
                                             Offers
-                                          </a>
+                                          </Link>
                                         </li>
                                       </ul>
                                     </li>
@@ -215,73 +211,67 @@ const NavBar = () => {
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37489"
                                           id="mega-menu-item-37489"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/uae-mainland-business-setup/index.html"
+                                            to="/mainland/overview"
                                           >
                                             Overview
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37490"
                                           id="mega-menu-item-37490"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/trading-license/index.html"
+                                            to="/mainland/licensing-categories"
                                           >
                                             Licensing Categories
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37491"
                                           id="mega-menu-item-37491"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/uae-mainland-company-setup-locations/index.html"
+                                            to="/mainland/company-type"
                                           >
                                             Company Type
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37492"
                                           id="mega-menu-item-37492"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/mainland-business-setup-advantages/index.html"
+                                            to="/mainland/dvantages"
                                           >
                                             Advantages
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37493"
                                           id="mega-menu-item-37493"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/mainland-company-setup-consultation/index.html"
+                                            to="/mainland/consultation"
                                           >
                                             Free Consultation
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37494"
                                           id="mega-menu-item-37494"
                                         >
-                                          <a
-                                            target="_blank"
+                                          <Link
                                             className="mega-menu-link"
-                                            href="dubai/offers/index.html"
+                                            to="/freezone/offers"
                                           >
                                             Offers
-                                          </a>
+                                          </Link>
                                         </li>
                                       </ul>
                                     </li>

@@ -1,0 +1,82 @@
+.box {
+    width: 30%;
+    margin: 1%;
+    display: inline-block;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: visible; /* Allow overflow content to be visible */
+    position: relative;
+    padding-bottom: 30px;
+    border-radius: 25px; /* Rounded corners */
+    margin-bottom: 30px; /* Add margin-bottom between rows */
+    border-bottom: 5px solid #5cb31e
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .box-content {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .offer-rate {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  p {
+    color: #6c757d;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .start-business {
+    position: absolute;
+    bottom: -20px; /* Adjust the positioning */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  .start-business a {
+    background-color: #5cb31e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-business a:hover {
+    background-color: #129549;
+  }
+  
+  /* Media queries for responsive layout */
+@media screen and (max-width: 768px) {
+    .box {
+      width: 100%;
+    }
+  }

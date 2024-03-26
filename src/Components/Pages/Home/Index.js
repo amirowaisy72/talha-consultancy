@@ -7,10 +7,10 @@ import Five from "./Five/Index";
 import Six from "./Six/Index";
 import Seven from "./Seven/Index";
 import Eight from "./Eight/Index";
-import Nine from "./Nine/Index";
+import GovtAgencies from "../../CommonComponents/GovttAgencies/Index"
 import Ten from "./Ten/Index";
-import Eleven from "./Eleven/Index";
 import Twelve from "./Twelve/Index";
+import ContactusForm from "../../CommonComponents/ContactUseForm/Index";
 
 const Index = () => {
   return (
@@ -37,9 +37,9 @@ const Index = () => {
             <Six />
             <Seven />
             <Eight />
-            <Nine />
+            <GovtAgencies />
             <Ten />
-            <Eleven />
+            <ContactusForm />
             <Twelve />
           </div>
         </div>

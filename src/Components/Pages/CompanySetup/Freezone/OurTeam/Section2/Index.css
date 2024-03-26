@@ -1,0 +1,45 @@
+.custom-component {
+  margin: 0 auto;
+  max-width: 800px; /* Adjust as needed */
+  padding: 20px;
+}
+
+.custom-component-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-content {
+  padding-bottom: 20px; /* Add some spacing between left and right content */
+}
+
+.right-content {
+  width: 100%;
+}
+
+.scrollable-image-container {
+  position: relative;
+}
+
+.scrollable-image {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .custom-component-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .left-content {
+    width: 50%;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .right-content {
+    width: 50%;
+  }
+}

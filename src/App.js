@@ -3,7 +3,20 @@ import NavBar from "./Components/Fixed/Top/Index";
 import Home from "./Components/Pages/Home/Index";
 import Wiered from "./Components/Weired/Home";
 import Footer from "./Components/Fixed/Footer/Index";
-import Overview from "./Components/Pages/CompanySetup/Overview/Index"
+import Overview from "./Components/Pages/CompanySetup/Freezone/Overview/Index";
+import Locations from "./Components/Pages/CompanySetup/Freezone/Locations/Index";
+import Advantages from "./Components/Pages/CompanySetup/Freezone/Advantages/Index";
+import Consultation from "./Components/Pages/CompanySetup/Freezone/Consultation/Index";
+import Offers from "./Components/Pages/CompanySetup/Freezone/Offers/Index";
+import OurCompany from "./Components/Pages/CompanySetup/Freezone/OurCompany/Index";
+import OurTeam from "./Components/Pages/CompanySetup/Freezone/OurTeam/Index";
+import OurNews from "./Components/Pages/CompanySetup/Freezone/OurNews/Index";
+import MainlandOverview from "./Components/Pages/CompanySetup/Mainland/Overview/Index";
+import MainlandLicensing from "./Components/Pages/CompanySetup/Mainland/LicensingCategories/Index";
+import MainlandCompanyType from "./Components/Pages/CompanySetup/Mainland/CompanyType/Index";
+import MainlandAdvantages from "./Components/Pages/CompanySetup/Mainland/Advantages/Index";
+import MainlandConsultation from "./Components/Pages/CompanySetup/Mainland/Consultation/Index";
+import MainlandOffers from "./Components/Pages/CompanySetup/Mainland/Offers/Index";
 
 function App() {
   return (
@@ -25,7 +38,72 @@ function App() {
                   <main id="main" className="site-main">
                     <Routes>
                       <Route exact path="" element={<Home />}></Route>
-                      <Route exact path="/overview" element={<Overview />}></Route>
+                      <Route
+                        exact
+                        path="/freezone/overview"
+                        element={<Overview />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/freezone/locations"
+                        element={<Locations />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/freezone/advantages"
+                        element={<Advantages />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/freezone/consultation"
+                        element={<Consultation />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/freezone/offers"
+                        element={<Offers />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/freezone/our-company"
+                        element={<OurCompany />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/freezone/our-team"
+                        element={<OurTeam />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/freezone/our-news"
+                        element={<OurNews />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/mainland/overview"
+                        element={<MainlandOverview />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/mainland/licensing-categories"
+                        element={<MainlandLicensing />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/mainland/company-type"
+                        element={<MainlandCompanyType />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/mainland/advantages"
+                        element={<MainlandAdvantages />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/mainland/consultation"
+                        element={<MainlandConsultation />}
+                      ></Route>
+                     
                     </Routes>
                   </main>
                 </div>
