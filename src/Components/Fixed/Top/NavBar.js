@@ -386,7 +386,9 @@ const NavBar = () => {
                                     >
                                       <div className="textwidget custom-html-widget">
                                         <h4>
-                                          <Link to="/otherServices">Other Services</Link>
+                                          <Link to="/otherServices">
+                                            Other Services
+                                          </Link>
                                         </h4>
                                       </div>
                                     </li>
@@ -538,9 +540,9 @@ const NavBar = () => {
                                     >
                                       <div className="textwidget custom-html-widget">
                                         <h4>
-                                          <a href="accounting-services-dubai/index.html">
+                                          <Link to="/accounting/accounting-services">
                                             Accounting Services
-                                          </a>
+                                          </Link>
                                         </h4>
                                       </div>
                                     </li>
@@ -562,45 +564,45 @@ const NavBar = () => {
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35735"
                                       id="mega-menu-item-35735"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="bookkeeping-services-dubai-uae/index.html"
+                                        to="/accounting/bookkeeping-services"
                                       >
                                         Bookkeeping Services
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35736"
                                       id="mega-menu-item-35736"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="accounts-payable-outsourcing/index.html"
+                                        to="/accounting/accounts-payable-resourcing"
                                       >
                                         Accounts Payable Outsourcing
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35737"
                                       id="mega-menu-item-35737"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="accounting-and-financial-reporting/index.html"
+                                        to="/accounting/accounts-financial-reporting"
                                       >
                                         Accounting and Financial Reporting
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35738"
                                       id="mega-menu-item-35738"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="accounting-supervision-services/index.html"
+                                        to="/accounting/accounting-supervision-services"
                                       >
                                         Accounting Supervision Services
-                                      </a>
+                                      </Link>
                                     </li>
                                   </ul>
                                 </li>
@@ -613,45 +615,34 @@ const NavBar = () => {
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35739"
                                       id="mega-menu-item-35739"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="updating-of-backlog-accounts/index.html"
+                                        to="/accounting/updating-backlog-accounts"
                                       >
                                         Updating of Backlog Accounts
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35740"
                                       id="mega-menu-item-35740"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="account-reconciliation-services/index.html"
+                                        to="/accounting/account-reconciliation"
                                       >
                                         Account Reconciliation Services
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35741"
                                       id="mega-menu-item-35741"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="payroll-services-in-dubai-uae/index.html"
+                                        to="/accounting/payroll-services"
                                       >
                                         Payroll Services
-                                      </a>
-                                    </li>
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-36546"
-                                      id="mega-menu-item-36546"
-                                    >
-                                      <a
-                                        className="mega-menu-link"
-                                        href="#free-consultation"
-                                      >
-                                        Free Consultation
-                                      </a>
+                                      </Link>
                                     </li>
                                   </ul>
                                 </li>

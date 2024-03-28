@@ -16,11 +16,19 @@ import MainlandLicensing from "./Components/Pages/CompanySetup/Mainland/Licensin
 import MainlandCompanyType from "./Components/Pages/CompanySetup/Mainland/CompanyType/Index";
 import MainlandAdvantages from "./Components/Pages/CompanySetup/Mainland/Advantages/Index";
 import MainlandConsultation from "./Components/Pages/CompanySetup/Mainland/Consultation/Index";
-import OffshoreOverview from "./Components/Pages/CompanySetup/Offshore/Overview/Index"
-import OffshoreLocations from "./Components/Pages/CompanySetup/Offshore/Locations/Index"
-import OffshoreAdvantages from "./Components/Pages/CompanySetup/Offshore/Advantages/Index"
-import OffshoreConsultation from "./Components/Pages/CompanySetup/Offshore/Consultation/Index"
-import OtherServices from "./Components/Pages/CompanySetup/OtherServices/Index"
+import OffshoreOverview from "./Components/Pages/CompanySetup/Offshore/Overview/Index";
+import OffshoreLocations from "./Components/Pages/CompanySetup/Offshore/Locations/Index";
+import OffshoreAdvantages from "./Components/Pages/CompanySetup/Offshore/Advantages/Index";
+import OffshoreConsultation from "./Components/Pages/CompanySetup/Offshore/Consultation/Index";
+import OtherServices from "./Components/Pages/CompanySetup/OtherServices/Index";
+import AccountingServices from "./Components/Pages/Accounting/AcountingServices/Index";
+import BookkeepingServices from "./Components/Pages/Accounting/BookkeepingServices/Index";
+import AccountsPayableOutsourcing from "./Components/Pages/Accounting/AccountsPayableOutsourcing/Index";
+import AccountsFinancialReporting from "./Components/Pages/Accounting/AccountsFinancialReporting/Index";
+import AccountingSupervisionServices from "./Components/Pages/Accounting/AccountingSupervisionServices/Index";
+import UpdatingBacklogs from "./Components/Pages/Accounting/UpdatingBacklogAccounts/Index";
+import AccountReconciliation from "./Components/Pages/Accounting/AccountReconciliation/Index";
+import PayrollServices from "./Components/Pages/Accounting/PayrollServices/Index";
 
 function App() {
   return (
@@ -138,7 +146,48 @@ function App() {
                         path="/otherServices"
                         element={<OtherServices />}
                       ></Route>
-                     
+                      {/* Accounting */}
+                      <Route
+                        exact
+                        path="/accounting/accounting-services"
+                        element={<AccountingServices />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/accounting/bookkeeping-services"
+                        element={<BookkeepingServices />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/accounting/accounts-payable-resourcing"
+                        element={<AccountsPayableOutsourcing />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/accounting/accounts-financial-reporting"
+                        element={<AccountsFinancialReporting />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/accounting/accounting-supervision-services"
+                        element={<AccountingSupervisionServices />}
+                      ></Route>
+
+                      <Route
+                        exact
+                        path="/accounting/updating-backlog-accounts"
+                        element={<UpdatingBacklogs />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/accounting/account-reconciliation"
+                        element={<AccountReconciliation />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/accounting/payroll-services"
+                        element={<PayrollServices />}
+                      ></Route>
                     </Routes>
                   </main>
                 </div>
