@@ -670,9 +670,8 @@ const NavBar = () => {
                                           <div className="menu-img-content">
                                             <h6>A&amp;A; Associate</h6>
                                             <h5>Legal Service</h5>
-                                            <a
-                                              href="https://aalegal.ae/"
-                                              target="_blank"
+                                            <Link
+                                              to="/accounting/accounting-legal-services"
                                               rel="noopener"
                                             >
                                               Contact Now
@@ -684,7 +683,7 @@ const NavBar = () => {
                                                 id="MjI4NzoxODc=-1"
                                                 src="wp-content/uploads/2021/10/link-arrow.png"
                                               />
-                                            </a>
+                                            </Link>
                                           </div>
                                         </div>
                                       </div>
@@ -708,9 +707,8 @@ const NavBar = () => {
                                           <div className="menu-img-content">
                                             <h6>A&amp;A; Associate</h6>
                                             <h5>Business Setup</h5>
-                                            <a
-                                              href="dubai/index.html"
-                                              target="_blank"
+                                            <Link
+                                              to="/accounting/business-setup"
                                               rel="noopener"
                                             >
                                               Contact Now
@@ -722,7 +720,7 @@ const NavBar = () => {
                                                 id="MjA2MjoxODc=-1"
                                                 src="wp-content/uploads/2021/10/link-arrow.png"
                                               />
-                                            </a>
+                                            </Link>
                                           </div>
                                         </div>
                                       </div>

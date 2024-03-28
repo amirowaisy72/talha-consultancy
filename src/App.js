@@ -29,6 +29,8 @@ import AccountingSupervisionServices from "./Components/Pages/Accounting/Account
 import UpdatingBacklogs from "./Components/Pages/Accounting/UpdatingBacklogAccounts/Index";
 import AccountReconciliation from "./Components/Pages/Accounting/AccountReconciliation/Index";
 import PayrollServices from "./Components/Pages/Accounting/PayrollServices/Index";
+import AccountingLegalServices from "./Components/Pages/Accounting/LegalService/Index";
+import AccountingBusinessSetup from "./Components/Pages/Accounting/BusinessSetup/Index";
 
 function App() {
   return (
@@ -172,7 +174,6 @@ function App() {
                         path="/accounting/accounting-supervision-services"
                         element={<AccountingSupervisionServices />}
                       ></Route>
-
                       <Route
                         exact
                         path="/accounting/updating-backlog-accounts"
@@ -188,6 +189,18 @@ function App() {
                         path="/accounting/payroll-services"
                         element={<PayrollServices />}
                       ></Route>
+                      <Route
+                        exact
+                        path="/accounting/accounting-legal-services"
+                        element={<AccountingLegalServices />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/accounting/business-setup"
+                        element={<AccountingBusinessSetup />}
+                      ></Route>
+
+                      {/* Add more here */}
                     </Routes>
                   </main>
                 </div>
