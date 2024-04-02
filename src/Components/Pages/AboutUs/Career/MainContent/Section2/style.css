@@ -1,0 +1,15 @@
+.animated-card {
+  transition: transform 0.3s ease;
+}
+
+.animated-card:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  margin: 10px 0; /* Vertical margin between cards */
+}
+
+.card-title {
+  color: green; /* Green-colored title */
+}

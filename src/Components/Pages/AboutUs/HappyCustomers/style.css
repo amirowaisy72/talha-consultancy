@@ -1,0 +1,10 @@
+.customers-container {
+  background: linear-gradient(to right, #00bfff, #008000);
+  padding: 20px;
+  width: 100%;
+}
+
+.customers-container > * {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,21 @@
+.contact-form-container {
+  background: linear-gradient(
+    135deg,
+    #3498db,
+    #8e44ad
+  ); /* Add gradient background */
+  color: white; /* Text color white */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.contact-form-container input[type="text"],
+.contact-form-container input[type="email"],
+.contact-form-container input[type="number"],
+.contact-form-container textarea,
+.contact-form-container button {
+  background-color: white; /* Set background of input fields and button to white */
+  color: #333; /* Set text color of input fields and button */
+  border: none; /* Remove border */
+  padding: 15px; /* Add padding for better appearance */
+  margin: 5px 0; /* Add margin for spacing between input fields and button */
+}

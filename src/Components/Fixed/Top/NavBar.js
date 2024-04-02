@@ -826,9 +826,7 @@ const NavBar = () => {
                                     >
                                       <div className="textwidget custom-html-widget">
                                         <h4>
-                                          <a href="external-audit-uae/index.html">
-                                            External Audit
-                                          </a>
+                                          <Link to="#">External Audit</Link>
                                         </h4>
                                         <span className="sub-title">
                                           Registered Auditors in
@@ -851,292 +849,15 @@ const NavBar = () => {
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35745"
                                           id="mega-menu-item-35745"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-multi-commodities-centre-dmcc/index.html"
+                                            to="/auditing"
                                           >
                                             Dubai Multi Commodities Centre
                                             (DMCC)
-                                          </a>
+                                          </Link>
                                         </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35746"
-                                          id="mega-menu-item-35746"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-airport-free-zone-dafza/index.html"
-                                          >
-                                            Dubai Airport Free Zone ( DAFZA)
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35747"
-                                          id="mega-menu-item-35747"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-jebel-ali-free-zone-jafza/index.html"
-                                          >
-                                            Jebel Ali Free Zone (JAFZA)
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35748"
-                                          id="mega-menu-item-35748"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-south/index.html"
-                                          >
-                                            Dubai South
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35749"
-                                          id="mega-menu-item-35749"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-dubai-design-district/index.html"
-                                          >
-                                            Dubai Design District
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35750"
-                                          id="mega-menu-item-35750"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-development-authority-dda/index.html"
-                                          >
-                                            Dubai Development Authority ( DDA)
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35751"
-                                          id="mega-menu-item-35751"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-silicon-oasis-dso/index.html"
-                                          >
-                                            Dubai Silicon Oasis (DSO)
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35752"
-                                          id="mega-menu-item-35752"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-international-financial-centre-difc/index.html"
-                                          >
-                                            Dubai International Financial Centre
-                                            (DIFC)
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35753"
-                                          id="mega-menu-item-35753"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-dubai-academic-city/index.html"
-                                          >
-                                            Dubai International Academic City
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35754"
-                                          id="mega-menu-item-35754"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-internet-city/index.html"
-                                          >
-                                            Dubai Internet City
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35755"
-                                          id="mega-menu-item-35755"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-knowledge-village/index.html"
-                                          >
-                                            Dubai Knowledge Village
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35756"
-                                          id="mega-menu-item-35756"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-world-central-dwc/index.html"
-                                          >
-                                            Dubai World Central (DWC)
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35757"
-                                          id="mega-menu-item-35757"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-media-city/index.html"
-                                          >
-                                            Dubai Media City
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35758"
-                                          id="mega-menu-item-35758"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-gold-and-diamond-park/index.html"
-                                          >
-                                            Dubai Gold and Diamond Park
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35759"
-                                          id="mega-menu-item-35759"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-international-media-production-zone/index.html"
-                                          >
-                                            International Media Production Zone
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35760"
-                                          id="mega-menu-item-35760"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-sharjah-airport-international-free-zone-saif-zone/index.html"
-                                          >
-                                            Sharjah Airport International Free
-                                            Zone (SAIF ZONE)
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35761"
-                                          id="mega-menu-item-35761"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-production-city/index.html"
-                                          >
-                                            Dubai Production City
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35762"
-                                          id="mega-menu-item-35762"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-studio-city/index.html"
-                                          >
-                                            Dubai Studio City
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35763"
-                                          id="mega-menu-item-35763"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-creative-cluster-authority-dcca/index.html"
-                                          >
-                                            Dubai Creative Cluster Authority (
-                                            DCCA )
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35766"
-                                          id="mega-menu-item-35766"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="auditors-in-fujairah/index.html"
-                                          >
-                                            Fujairah
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35764"
-                                          id="mega-menu-item-35764"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-sharjah/index.html"
-                                          >
-                                            Sharjah
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35765"
-                                          id="mega-menu-item-35765"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai/index.html"
-                                          >
-                                            Dubai
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35767"
-                                          id="mega-menu-item-35767"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-abu-dhabi/index.html"
-                                          >
-                                            Abu Dhabi
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35768"
-                                          id="mega-menu-item-35768"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-ras-al-khaimah/index.html"
-                                          >
-                                            Ras Al Khaimah
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35769"
-                                          id="mega-menu-item-35769"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-dubai-healthcare-city/index.html"
-                                          >
-                                            Dubai Healthcare City
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35770"
-                                          id="mega-menu-item-35770"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="registered-auditors-in-jafza-one/index.html"
-                                          >
-                                            JAFZA ONE
-                                          </a>
-                                        </li>
+                                        {/* Display the list of external auditors */}
                                       </ul>
                                     </li>
                                   </ul>
@@ -1152,9 +873,7 @@ const NavBar = () => {
                                     >
                                       <div className="textwidget custom-html-widget">
                                         <h4>
-                                          <a href="internal-audit-firm-dubai-uae/index.html">
-                                            Internal Audit
-                                          </a>
+                                          <Link to="/#">Internal Audit</Link>
                                         </h4>
                                       </div>
                                     </li>
@@ -1162,135 +881,23 @@ const NavBar = () => {
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-item-35743"
                                       id="mega-menu-item-35743"
                                     >
-                                      <a
-                                        className="mega-menu-link"
-                                        href="internal-audit-firm-dubai-uae/index.html"
-                                      >
+                                      <Link className="mega-menu-link" to="#">
                                         Internal Audit
                                         <span className="mega-indicator"></span>
-                                      </a>
+                                      </Link>
                                       <ul className="mega-sub-menu">
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36527"
                                           id="mega-menu-item-36527"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="financial-statement-audit/index.html"
+                                            to="/auditing"
                                           >
                                             Financial Statement Audit
-                                          </a>
+                                          </Link>
                                         </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36528"
-                                          id="mega-menu-item-36528"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="ifrs-financial-in-report-segment/index.html"
-                                          >
-                                            IFRS Financial (In Report Segment)
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36529"
-                                          id="mega-menu-item-36529"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="risk-management/index.html"
-                                          >
-                                            Risk Management
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36530"
-                                          id="mega-menu-item-36530"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="operational-audit/index.html"
-                                          >
-                                            Operational Audit
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36531"
-                                          id="mega-menu-item-36531"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="compliance-audit/index.html"
-                                          >
-                                            Compliance Audit
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36532"
-                                          id="mega-menu-item-36532"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="financial-control-audit/index.html"
-                                          >
-                                            Financial Control Audit
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36533"
-                                          id="mega-menu-item-36533"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="independent-review/index.html"
-                                          >
-                                            Independent Review
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36534"
-                                          id="mega-menu-item-36534"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="investigation-audit/index.html"
-                                          >
-                                            Investigation Audit
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36535"
-                                          id="mega-menu-item-36535"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="information-system-audit/index.html"
-                                          >
-                                            Information System Audit
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36536"
-                                          id="mega-menu-item-36536"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="forensic-and-special-audit/index.html"
-                                          >
-                                            Forensic and Special Audit
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36537"
-                                          id="mega-menu-item-36537"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="recovery-audit/index.html"
-                                          >
-                                            Recovery Audit
-                                          </a>
-                                        </li>
+                                        {/* Display the list of internal auditors */}
                                       </ul>
                                     </li>
                                     <li
@@ -1299,9 +906,9 @@ const NavBar = () => {
                                     >
                                       <div className="textwidget custom-html-widget">
                                         <h4>
-                                          <a href="adnoc-in-country-value-icv-certification/index.html">
+                                          <Link to="/auditing/icv-certification">
                                             ICV Certification
-                                          </a>
+                                          </Link>
                                         </h4>
                                       </div>
                                     </li>
@@ -1309,12 +916,12 @@ const NavBar = () => {
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35744"
                                       id="mega-menu-item-35744"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="adnoc-in-country-value-icv-certification/index.html"
+                                        to="/auditing/icv-certification"
                                       >
                                         ICV Certification
-                                      </a>
+                                      </Link>
                                     </li>
                                   </ul>
                                 </li>
@@ -1425,155 +1032,158 @@ const NavBar = () => {
                                       className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-36922"
                                       id="mega-menu-item-36922"
                                     >
-                                      <a className="mega-menu-link" href="#">
+                                      <Link
+                                        className="mega-menu-link"
+                                        to="/advisory-&-consultation"
+                                      >
                                         Advisory
                                         <span className="mega-indicator"></span>
-                                      </a>
+                                      </Link>
                                       <ul className="mega-sub-menu">
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-51739"
                                           id="mega-menu-item-51739"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="corporate-tax-in-dubai-uae/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Corporate Tax Services
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36929"
                                           id="mega-menu-item-36929"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-and-tax-audit-advisory-dubai-uae/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Tax Advisory
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36930"
                                           id="mega-menu-item-36930"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="corporate-governance/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Corporate Governance
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36931"
                                           id="mega-menu-item-36931"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="mergers-and-acquisitions/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Mergers and Acquisitions
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36932"
                                           id="mega-menu-item-36932"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="financial-reporting-and-statement-analysis/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Financial Reporting and Statement
                                             Analysis
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36933"
                                           id="mega-menu-item-36933"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="financial-feasibility/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Financial Feasibility
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36934"
                                           id="mega-menu-item-36934"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="business-strategy-and-planning/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Business Strategy and Planning
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36935"
                                           id="mega-menu-item-36935"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="business-succession-planning/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Business Succession Planning
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36936"
                                           id="mega-menu-item-36936"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="business-restructuring/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Business Restructuring
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36937"
                                           id="mega-menu-item-36937"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
                                             href="budgeting-and-finance-planning/index.html"
                                           >
                                             Budgeting and Finance Planning
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36938"
                                           id="mega-menu-item-36938"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="strategy-and-operation/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Strategy and Operation
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36939"
                                           id="mega-menu-item-36939"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="human-capital/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Human Capital
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36940"
                                           id="mega-menu-item-36940"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="valuation-and-financial-restructuring/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Valuation and Financial
                                             Restructuring
-                                          </a>
+                                          </Link>
                                         </li>
                                       </ul>
                                     </li>
@@ -1600,34 +1210,34 @@ const NavBar = () => {
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36943"
                                           id="mega-menu-item-36943"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="business-valuation-assurance/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Business Valuation Assurance
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36944"
                                           id="mega-menu-item-36944"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="due-diligence-assurance/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Due Diligence Assurance
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36945"
                                           id="mega-menu-item-36945"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="risk-assurance/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Risk Assurance
-                                          </a>
+                                          </Link>
                                         </li>
                                       </ul>
                                     </li>
@@ -1661,187 +1271,144 @@ const NavBar = () => {
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36949"
                                           id="mega-menu-item-36949"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-and-tax-advisory/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT and Tax Advisory
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36950"
                                           id="mega-menu-item-36950"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-implementation/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT Implementation
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36951"
                                           id="mega-menu-item-36951"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-refund-at-airport/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT Refund at Airport
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36952"
                                           id="mega-menu-item-36952"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-consultants/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT Consultants
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36953"
                                           id="mega-menu-item-36953"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="key-vat-points/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Key VAT Points
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36954"
                                           id="mega-menu-item-36954"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-fines/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT Fines
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36955"
                                           id="mega-menu-item-36955"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="value-added-tax-faq/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Value Added Tax (FAQ)
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36956"
                                           id="mega-menu-item-36956"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-assessment-and-appeals/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT Assessment and Appeals
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36957"
                                           id="mega-menu-item-36957"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-compliance-audit/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT Compliance Audit
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36958"
                                           id="mega-menu-item-36958"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-returns-filing/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT Returns Filing
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36959"
                                           id="mega-menu-item-36959"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-training/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT Training
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36960"
                                           id="mega-menu-item-36960"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="vat-in-uae/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             VAT in UAE
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36961"
                                           id="mega-menu-item-36961"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="international-taxation/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             International Taxation
-                                          </a>
-                                        </li>
-                                      </ul>
-                                    </li>
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-31"
-                                      id="mega-menu-item-custom_html-31"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <h4>
-                                          <a href="#">PRO Services</a>
-                                        </h4>
-                                      </div>
-                                    </li>
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-36926"
-                                      id="mega-menu-item-36926"
-                                    >
-                                      <a className="mega-menu-link" href="#">
-                                        PRO Services
-                                        <span className="mega-indicator"></span>
-                                      </a>
-                                      <ul className="mega-sub-menu">
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36942"
-                                          id="mega-menu-item-36942"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="dda-visa-document-list-dubai-uae/index.html"
-                                          >
-                                            DDA Visa – Document List
-                                          </a>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36962"
-                                          id="mega-menu-item-36962"
-                                        >
-                                          <a
-                                            className="mega-menu-link"
-                                            href="family-visa-document-list-dubai-uae/index.html"
-                                          >
-                                            Family Visa – Document List
-                                          </a>
+                                          </Link>
                                         </li>
                                       </ul>
                                     </li>
@@ -1875,34 +1442,34 @@ const NavBar = () => {
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36947"
                                           id="mega-menu-item-36947"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="part-time-cfo-services-dubai/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Part Time CFO
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36946"
                                           id="mega-menu-item-36946"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="meet-our-cfo/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Meet Our CFO
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36948"
                                           id="mega-menu-item-36948"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="virtual-cfo/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Virtual CFO
-                                          </a>
+                                          </Link>
                                         </li>
                                       </ul>
                                     </li>
@@ -1947,67 +1514,67 @@ const NavBar = () => {
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-37361"
                                           id="mega-menu-item-37361"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="accounting-software/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Accounting Software
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-37362"
                                           id="mega-menu-item-37362"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="cloud-accounting-software/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Cloud Accounting Software
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-37363"
                                           id="mega-menu-item-37363"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="asset-tracking-software/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Asset Tracking Software
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-37464"
                                           id="mega-menu-item-37464"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="accounting-workshops/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Accounting Workshops
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-37364"
                                           id="mega-menu-item-37364"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="tally/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Tally
-                                          </a>
+                                          </Link>
                                         </li>
                                         <li
                                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-37465"
                                           id="mega-menu-item-37465"
                                         >
-                                          <a
+                                          <Link
                                             className="mega-menu-link"
-                                            href="software-solutions-in-accounting/index.html"
+                                            to="/advisory-&-consultation"
                                           >
                                             Software Solutions
-                                          </a>
+                                          </Link>
                                         </li>
                                       </ul>
                                     </li>
@@ -2085,17 +1652,16 @@ const NavBar = () => {
                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-35734"
                           id="mega-menu-item-35734"
                         >
-                          <a
-                            target="_blank"
+                          <Link
                             className="mega-menu-link"
-                            href="http://aalegal.ae/"
+                            to="#"
                             aria-haspopup="true"
                             aria-expanded="false"
                             tabindex="0"
                           >
                             Legal Services
                             <span className="mega-indicator"></span>
-                          </a>
+                          </Link>
                           <ul className="mega-sub-menu">
                             <li
                               className="mega-menu-row"
@@ -2113,13 +1679,9 @@ const NavBar = () => {
                                     >
                                       <div className="textwidget custom-html-widget">
                                         <h4>
-                                          <a
-                                            href="http://aalegal.ae/practice-area/"
-                                            target="_blank"
-                                            rel="noopener"
-                                          >
+                                          <Link to="#" rel="noopener">
                                             Practice Areas
-                                          </a>
+                                          </Link>
                                         </h4>
                                       </div>
                                     </li>
@@ -2142,10 +1704,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-13"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/aviation/"
-                                          target="_blank"
+                                          to="/legal-services/home/aviation"
                                           rel="noopener"
                                         >
                                           <img
@@ -2153,7 +1714,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Aviation</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2161,10 +1722,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-16"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/banking-and-finance/"
-                                          target="_blank"
+                                          to="/legal-services/home/banking-&-finance"
                                           rel="noopener"
                                         >
                                           <img
@@ -2172,7 +1732,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Banking and Finance</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2180,10 +1740,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-19"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/construction/"
-                                          target="_blank"
+                                          to="/legal-services/home/construction"
                                           rel="noopener"
                                         >
                                           <img
@@ -2191,7 +1750,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Construction</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2199,10 +1758,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-14"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/energy-oil-and-gas/"
-                                          target="_blank"
+                                          to="/legal-services/home/enery,oil&Gas"
                                           rel="noopener"
                                         >
                                           <img
@@ -2210,7 +1768,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Energy, Oil and Gas</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2218,10 +1776,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-17"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/insurance-law/"
-                                          target="_blank"
+                                          to="/legal-services/home/insurance-law"
                                           rel="noopener"
                                         >
                                           <img
@@ -2229,7 +1786,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Insurance Law</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2237,10 +1794,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-20"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/intellectual-property/"
-                                          target="_blank"
+                                          to="/legal-services/home/intellectual-property"
                                           rel="noopener"
                                         >
                                           <img
@@ -2248,7 +1804,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Intellectual Property</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                   </ul>
@@ -2263,10 +1819,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-22"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/commercial-transactions-and-corporate-law/"
-                                          target="_blank"
+                                          to="/legal-services/home/commercial-transactions"
                                           rel="noopener"
                                         >
                                           <img
@@ -2277,7 +1832,7 @@ const NavBar = () => {
                                             Commercial Transactions and
                                             Corporate Law
                                           </h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2285,10 +1840,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-54"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/domestic-and-international-arbitration/"
-                                          target="_blank"
+                                          to="/legal-services/home/domestic-and-international-arbitration"
                                           rel="noopener"
                                         >
                                           <img
@@ -2299,7 +1853,7 @@ const NavBar = () => {
                                             Domestic and International
                                             Arbitration
                                           </h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2307,10 +1861,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-53"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/data-protection-and-privacy/"
-                                          target="_blank"
+                                          to="/legal-services/home/data-protection-and-privacy"
                                           rel="noopener"
                                         >
                                           <img
@@ -2318,7 +1871,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Data Protection and Privacy</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2326,10 +1879,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-24"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/regulatory-and-government-relations/"
-                                          target="_blank"
+                                          to="/legal-services/home/regulatory-and-govt-relations"
                                           rel="noopener"
                                         >
                                           <img
@@ -2339,7 +1891,7 @@ const NavBar = () => {
                                           <h6>
                                             Regulatory and Government Relations
                                           </h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                   </ul>
@@ -2354,10 +1906,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-23"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/islamic-finance/"
-                                          target="_blank"
+                                          to="/legal-services/home/islamic-finance"
                                           rel="noopener"
                                         >
                                           <img
@@ -2365,7 +1916,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Islamic Finance</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2373,10 +1924,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-55"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/litigation/"
-                                          target="_blank"
+                                          to="/legal-services/home/litigation"
                                           rel="noopener"
                                         >
                                           <img
@@ -2384,7 +1934,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Litigation</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2392,10 +1942,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-15"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/maritime-law/"
-                                          target="_blank"
+                                          to="/legal-services/home/maritime-law"
                                           rel="noopener"
                                         >
                                           <img
@@ -2403,7 +1952,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Maritime Law</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2411,10 +1960,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-18"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/pro-bono-work/"
-                                          target="_blank"
+                                          to="/legal-services/home/pro-bono-work"
                                           rel="noopener"
                                         >
                                           <img
@@ -2422,7 +1970,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Pro Bono Work</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2430,10 +1978,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-21"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/real-estate/"
-                                          target="_blank"
+                                          to="/legal-services/home/real-estates"
                                           rel="noopener"
                                         >
                                           <img
@@ -2441,7 +1988,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Real Estate</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                     <li
@@ -2449,10 +1996,9 @@ const NavBar = () => {
                                       id="mega-menu-item-custom_html-56"
                                     >
                                       <div className="textwidget custom-html-widget">
-                                        <a
+                                        <Link
                                           className="megamenu-link"
-                                          href="http://aalegal.ae/practice-area/tax/"
-                                          target="_blank"
+                                          to="/legal-services/home/tax"
                                           rel="noopener"
                                         >
                                           <img
@@ -2460,7 +2006,7 @@ const NavBar = () => {
                                             alt
                                           />
                                           <h6>Tax</h6>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </li>
                                   </ul>
@@ -2758,16 +2304,16 @@ const NavBar = () => {
                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-1095"
                           id="mega-menu-item-1095"
                         >
-                          <a
+                          <Link
                             className="mega-menu-link"
-                            href="about/index.html"
+                            to="about-us/home/about"
                             aria-haspopup="true"
                             aria-expanded="false"
                             tabindex="0"
                           >
                             About Us
                             <span className="mega-indicator"></span>
-                          </a>
+                          </Link>
                           <ul className="mega-sub-menu">
                             <li className="mega-menu-row" id="mega-menu-1095-0">
                               <ul className="mega-sub-menu">
@@ -2782,9 +2328,7 @@ const NavBar = () => {
                                     >
                                       <div className="textwidget custom-html-widget">
                                         <h4>
-                                          <a href="about-us/index.html">
-                                            About Us
-                                          </a>
+                                          <Link to="#">About Us</Link>
                                         </h4>
                                       </div>
                                     </li>
@@ -2814,23 +2358,23 @@ const NavBar = () => {
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-47125"
                                       id="mega-menu-item-47125"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="leadership-team/index.html"
+                                        to="about-us/home/leadership-team"
                                       >
                                         Leadership Team
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37651"
                                       id="mega-menu-item-37651"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="group-of-companies.html"
+                                        to="about-us/home/companies"
                                       >
                                         Group of Companies
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37649"
@@ -2859,23 +2403,23 @@ const NavBar = () => {
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-37652"
                                       id="mega-menu-item-37652"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="happy-customers/index.html"
+                                        to="about-us/home/happy-customers"
                                       >
                                         Happy Customers
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37653"
                                       id="mega-menu-item-37653"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="careers/index.html"
+                                        to="about-us/home/career"
                                       >
                                         Career
-                                      </a>
+                                      </Link>
                                     </li>
                                   </ul>
                                 </li>
@@ -3072,23 +2616,23 @@ const NavBar = () => {
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35839"
                                       id="mega-menu-item-35839"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="blogs/index.html"
+                                        to="/news/home/blogs"
                                       >
                                         Blogs
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35840"
                                       id="mega-menu-item-35840"
                                     >
-                                      <a
+                                      <Link
                                         className="mega-menu-link"
-                                        href="news/index.html"
+                                        to="/news/home/news"
                                       >
                                         News
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li
                                       className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37683"
@@ -3111,7 +2655,7 @@ const NavBar = () => {
                                     >
                                       <a
                                         className="mega-menu-link"
-                                        href="aa-media/index.html"
+                                        href="#"
                                       >
                                         A&#038;A Media
                                       </a>
@@ -3281,13 +2825,13 @@ const NavBar = () => {
                           className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-46624"
                           id="mega-menu-item-46624"
                         >
-                          <a
+                          <Link
                             className="mega-menu-link"
-                            href="contact-us/index.html"
+                            to="/contact-us/home"
                             tabindex="0"
                           >
                             Contact Us
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>

@@ -31,6 +31,14 @@ import AccountReconciliation from "./Components/Pages/Accounting/AccountReconcil
 import PayrollServices from "./Components/Pages/Accounting/PayrollServices/Index";
 import AccountingLegalServices from "./Components/Pages/Accounting/LegalService/Index";
 import AccountingBusinessSetup from "./Components/Pages/Accounting/BusinessSetup/Index";
+import Audit from "./Components/Pages/Audit/Auditing/Index";
+import ISVCertification from "./Components/Pages/Audit/ICVCertification/Index";
+import AdvisoryConsultation from "./Components/Pages/Advisory&Consulting/Index"
+import LegalServices from "./Components/Pages/LegalServices/Home/Index"
+import About from "./Components/Pages/AboutUs/Home/Index"
+import News from "./Components/Pages/News/Index"
+import ContactUs from "./Components/Pages/ContactUs/Index"
+import MessagingIcon from "./Components/Pages/Online/MessagingIcon";
 
 function App() {
   return (
@@ -199,6 +207,37 @@ function App() {
                         path="/accounting/business-setup"
                         element={<AccountingBusinessSetup />}
                       ></Route>
+                      <Route exact path="/auditing" element={<Audit />}></Route>
+                      <Route
+                        exact
+                        path="/auditing/icv-certification"
+                        element={<ISVCertification />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/advisory-&-consultation"
+                        element={<AdvisoryConsultation />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/legal-services/home/*"
+                        element={<LegalServices />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/about-us/home/*"
+                        element={<About />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/news/home/*"
+                        element={<News />}
+                      ></Route>
+                      <Route
+                        exact
+                        path="/contact-us/home"
+                        element={<ContactUs />}
+                      ></Route>
 
                       {/* Add more here */}
                     </Routes>
@@ -210,6 +249,7 @@ function App() {
             <Wiered />
             {/* Footer */}
             <Footer />
+            <MessagingIcon />
           </div>
         </body>
       </HashRouter>

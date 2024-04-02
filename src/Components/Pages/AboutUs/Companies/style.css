@@ -1,0 +1,101 @@
+/* Updated CSS */
+.wrapper {
+  text-align: center;
+  padding: 20px; /* Padding around the component */
+  margin: 50px auto; /* Centering the component horizontally and adding margin top and bottom */
+  max-width: 1200px; /* Limiting the width of the component */
+}
+
+.group-of-companies {
+  background-color: #f5f5f5;
+}
+
+.company-heading {
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(to right, #00ff00, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px; /* Add margin after the heading */
+}
+
+.company-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.company-card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  color: #000000;
+  border-bottom: 8px solid;
+  border-image: linear-gradient(to left, #2a712a, #242464);
+  border-image-slice: 1;
+  transition: background-color 0.3s, color 0.3s;
+  position: relative;
+}
+
+.company-card:hover {
+  background: linear-gradient(to left, #2a712a, #242464);
+  border-bottom: none;
+
+  .company-name {
+    color: white;
+  }
+
+  .company-address {
+    color: white;
+  }
+}
+
+.company-icon {
+  position: relative;
+}
+
+.company-icon .icon-circle {
+  position: absolute;
+  top: -15px; /* Adjust vertical positioning */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px; /* Adjust circle size */
+  height: 50px; /* Adjust circle size */
+  background-color: #3498db; /* Blueish color */
+  border-radius: 50%; /* Create a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-icon .icon-circle .fa-icon {
+  font-size: 24px; /* Adjust icon size */
+  color: white;
+}
+
+.company-details {
+  padding: 50px;
+  text-align: center; /* Center the text */
+}
+
+.company-name {
+  font-family: "Arial Black", sans-serif; /* Change font style of company names */
+}
+
+.company-address {
+  font-style: italic; /* Change font style of address to italic */
+  font-family: "Times New Roman", serif; /* Apply a serif font */
+}
+
+.company-name,
+.company-address {
+  padding: 10px 0; /* Add padding */
+}
+
+/* Responsive CSS for smaller screens */
+@media screen and (max-width: 768px) {
+  .company-card {
+    width: calc(100% - 20px);
+  }
+}

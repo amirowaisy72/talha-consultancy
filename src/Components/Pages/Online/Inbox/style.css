@@ -1,0 +1,100 @@
+.inbox {
+  position: fixed;
+  bottom: 70px; /* Align the inbox to the bottom */
+  right: 20px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-width: 400px;
+  height: 600px; /* Fixed height */
+  overflow-y: auto; /* Add vertical scrollbar when content overflows */
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+}
+
+.inbox-heading {
+  background-color: #007bff; /* Blue background for the heading */
+  color: #fff; /* Text color */
+  padding: 20px; /* Padding for the heading */
+  border-top-left-radius: 15px; /* Adjusted for rounded corners */
+  border-top-right-radius: 15px; /* Adjusted for rounded corners */
+  font-family: "Montserrat", sans-serif; /* Change font family */
+  font-size: 24px; /* Adjust font size */
+  font-weight: 800; /* Increase font weight for a thicker appearance */
+}
+
+.message-container {
+  margin-bottom: 10px; /* Add space between message containers */
+  padding: 0 10px; /* Add left and right padding */
+}
+
+.message-sender {
+  font-size: 10px; /* Decrease font size for sender name */
+  margin-bottom: 5px; /* Add space between sender name and message box */
+}
+
+.message-box {
+  padding: 0px; /* Padding for each message box */
+  border-radius: 10px; /* Rounded corners for message box */
+}
+
+.message {
+  padding: 10px; /* Padding for the message */
+  font-size: 14px; /* Decrease font size for messages */
+  font-weight: bold;
+}
+
+.suggestions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.suggestions li {
+  margin-top: 10px; /* Add vertical padding between suggestions */
+}
+
+.suggestion {
+  border-radius: 20px; /* Rounded corners for suggestion box */
+  padding: 10px; /* Padding for suggestion box */
+  font-family: "Arial", sans-serif; /* Change font family */
+  font-size: 14px; /* Adjust font size for suggestions */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.suggestion:hover {
+  outline: 2px solid blue; /* Change outline color to blue on hover */
+}
+
+.footer {
+  padding: 10px; /* Padding for the footer */
+  margin-top: auto; /* Push the footer to the bottom */
+  border-top: 1px solid #ddd; /* Add border on top of footer */
+}
+
+.write-message {
+  display: flex;
+  align-items: center;
+}
+
+.write-message textarea {
+  flex: 1;
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  background-color: white;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.options {
+  display: flex; /* Change display to flex */
+  align-items: center; /* Align items vertically */
+}
+
+.options span {
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px; /* Add spacing between icons */
+  margin-right: 5px;
+}
