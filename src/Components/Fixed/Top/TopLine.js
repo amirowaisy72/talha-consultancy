@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import { FaWhatsapp } from 'react-icons/fa';
 
 const TopLine = () => {
   return (
@@ -77,10 +78,7 @@ const TopLine = () => {
                                 className="menu-link"
                               >
                                 <div className="whatsapp">
-                                  <img
-                                    src="dubai/wp-content/uploads/2021/03/header-whatsapp.png"
-                                    alt
-                                  />
+                                <FaWhatsapp style={{color:"green"}} className="mx-2" size={20} />
                                   <span>WhatsApp</span>
                                   <br />
                                   +92 345 2167252

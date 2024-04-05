@@ -1,7 +1,8 @@
 import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
+import { useState } from "react";
 import NavBar from "./Components/Fixed/Top/Index";
 import Home from "./Components/Pages/Home/Index";
-import Wiered from "./Components/Weired/Home";
+import MobileNav from "./Components/Weired/Home";
 import Footer from "./Components/Fixed/Footer/Index";
 import Overview from "./Components/Pages/CompanySetup/Freezone/Overview/Index";
 import Locations from "./Components/Pages/CompanySetup/Freezone/Locations/Index";
@@ -33,14 +34,16 @@ import AccountingLegalServices from "./Components/Pages/Accounting/LegalService/
 import AccountingBusinessSetup from "./Components/Pages/Accounting/BusinessSetup/Index";
 import Audit from "./Components/Pages/Audit/Auditing/Index";
 import ISVCertification from "./Components/Pages/Audit/ICVCertification/Index";
-import AdvisoryConsultation from "./Components/Pages/Advisory&Consulting/Index"
-import LegalServices from "./Components/Pages/LegalServices/Home/Index"
-import About from "./Components/Pages/AboutUs/Home/Index"
-import News from "./Components/Pages/News/Index"
-import ContactUs from "./Components/Pages/ContactUs/Index"
+import AdvisoryConsultation from "./Components/Pages/Advisory&Consulting/Index";
+import LegalServices from "./Components/Pages/LegalServices/Home/Index";
+import About from "./Components/Pages/AboutUs/Home/Index";
+import News from "./Components/Pages/News/Index";
+import ContactUs from "./Components/Pages/ContactUs/Index";
 import MessagingIcon from "./Components/Pages/Online/MessagingIcon";
 
 function App() {
+  // State to manage the visibility of the side drawer
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false); // Set initial state to false
   return (
     <>
       <HashRouter>
@@ -53,7 +56,8 @@ function App() {
             <a className="skip-link screen-reader-text" href="#content">
               Skip to content
             </a>
-            <NavBar />
+            test
+            <NavBar setIsDrawerOpen={setIsDrawerOpen} />
             <div id="content" className="site-content">
               <div className="ast-container">
                 <div id="primary" className="content-area primary">
@@ -245,8 +249,11 @@ function App() {
                 </div>
               </div>
             </div>
-            {/* Something weired about mobile screen */}
-            <Wiered />
+            {/* Mobile navigation menue */}
+            <MobileNav
+              isDrawerOpen={isDrawerOpen}
+              setIsDrawerOpen={setIsDrawerOpen}
+            />
             {/* Footer */}
             <Footer />
             <MessagingIcon />

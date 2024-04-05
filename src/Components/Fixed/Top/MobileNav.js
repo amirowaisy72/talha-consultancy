@@ -1,6 +1,10 @@
 import React from "react";
 
-const MobileNav = () => {
+const MobileNav = ({ setIsDrawerOpen }) => {
+  const mobileNavOpen = () => {
+    setIsDrawerOpen(true);
+  };
+
   return (
     <>
       <div
@@ -31,7 +35,8 @@ const MobileNav = () => {
                         rel="home"
                         aria-current="page"
                       >
-                        <img
+                        Talha Consultancy
+                        {/* <img
                           width="250"
                           height="43"
                           src="wp-content/uploads/2021/07/weblogo-2.png"
@@ -43,7 +48,7 @@ const MobileNav = () => {
                               http://www.aaconsultancy.ae/wp-content/uploads/2021/07/weblogo-2.png         2x
                             "
                           sizes="(max-width: 250px) 100vw, 250px"
-                        />
+                        /> */}
                       </a>
                     </span>
                   </div>
@@ -62,7 +67,11 @@ const MobileNav = () => {
                     >
                       <span className="screen-reader-text">Main Menu</span>
                       <span className="mobile-menu-toggle-icon">
-                        <span className="ahfb-svg-iconset ast-inline-flex svg-baseline">
+                        {/* Mobile navigation manue opener */}
+                        <span
+                          onClick={mobileNavOpen}
+                          className="ahfb-svg-iconset ast-inline-flex svg-baseline"
+                        >
                           <svg
                             className="ast-mobile-svg ast-menu-svg"
                             fill="currentColor"

@@ -1,0 +1,22 @@
+/* Home.css */
+
+/* Default styles for the drawer */
+.ast-mobile-popup {
+    position: "fixed";
+    top: 0;
+    right: 0;
+    width: "300px";
+    height: "100%";
+    background: "#fff";
+    box-shadow: "0 0 10px rgba(0, 0, 0, 0.2)";
+    transition: "right 0.3s ease-in-out",;
+    z-index: 9999;
+  }
+  
+  /* Show the drawer on mobile screens */
+  @media (max-width: 768px) {
+    .ast-mobile-popup-drawer {
+      right: 0;
+    }
+  }
+  

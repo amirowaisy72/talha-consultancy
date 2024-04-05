@@ -3,7 +3,7 @@ import TopLine from "./TopLine";
 import NavBar from "./NavBar";
 import MobileNav from "./MobileNav";
 
-const Index = () => {
+const Index = ({ setIsDrawerOpen }) => {
   return (
     <>
       <header
@@ -18,7 +18,7 @@ const Index = () => {
           <NavBar />
         </div>
         {/* Mobile screen view of navbar */}
-        <MobileNav />
+        <MobileNav setIsDrawerOpen={setIsDrawerOpen} />
       </header>
     </>
   );

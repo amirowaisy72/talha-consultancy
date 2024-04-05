@@ -1,0 +1,9 @@
+.dropdown-menu {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .dropdown-menu.show {
+    max-height: 200px; /* Adjust this value according to your needs */
+  }
+  
