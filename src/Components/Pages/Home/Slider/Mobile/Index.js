@@ -11,8 +11,7 @@ const Index = () => {
       >
         <div className="elementor-widget-container">
           <a
-            href="dubai/uae-business-license-offers/index.html"
-            target="_blank"
+            href="#"
           >
             <img
               loading="lazy"

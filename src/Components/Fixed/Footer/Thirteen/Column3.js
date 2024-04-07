@@ -53,7 +53,6 @@ const Column3 = () => {
                     >
                       <a
                         href="wp-content/uploads/2019/06/ACCOUNT-PAYABLE.pdf"
-                        target="_blank"
                         className="uael-menu-item"
                       >
                         Account Payable

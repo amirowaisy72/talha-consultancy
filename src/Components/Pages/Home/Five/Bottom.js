@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Bottom = () => {
   return (
@@ -26,13 +27,12 @@ const Bottom = () => {
                 <div className="elementor-widget-container">
                   <p>
                     At A&amp;A Associate LLC, we take pride in our role as
-                    <a
-                      href="accounting-services-in-dubai/index.html"
-                      target="_blank"
+                    <Link
+                      to="accounting/accounting-services"
                       rel="noopener"
                     >
                       accounting and auditing professionals in Dubai, UAE
-                    </a>
+                    </Link>
                     . We, being the best of auditing companies in UAE strive to
                     uphold the highest standards of professionalism, integrity,
                     and ethics in our work, supporting the growth and success of

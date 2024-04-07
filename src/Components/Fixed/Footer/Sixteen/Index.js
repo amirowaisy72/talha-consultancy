@@ -1,4 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faLinkedin,
+  faInstagram,
+  faYoutube,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Index = () => {
   return (
@@ -34,9 +42,9 @@ const Index = () => {
                         data-element_type="widget"
                         data-widget_type="text-editor.default"
                       >
-                        <div className="elementor-widget-container">
-                          <p>
-                            Copyright © 2023 A&amp;A Consultancy. All Rights
+                        <div className="elementor-widget-container" style={{ paddingTop: "15px" }}>
+                          <p style={{ color: "white" }}>
+                            Copyright © 2023 Talha Consultancy. All Rights
                             Reserved.
                           </p>
                         </div>
@@ -66,7 +74,10 @@ const Index = () => {
                                 <span className="elementor-screen-only">
                                   Facebook
                                 </span>
-                                <i className="fab fa-facebook"></i>
+                                <FontAwesomeIcon
+                                  style={{ color: "white" }}
+                                  icon={faFacebook}
+                                />
                               </a>
                             </span>
                             <span className="elementor-grid-item">
@@ -78,7 +89,10 @@ const Index = () => {
                                 <span className="elementor-screen-only">
                                   Linkedin-in
                                 </span>
-                                <i className="fab fa-linkedin-in"></i>
+                                <FontAwesomeIcon
+                                  style={{ color: "white" }}
+                                  icon={faLinkedin}
+                                />
                               </a>
                             </span>
                             <span className="elementor-grid-item">
@@ -107,6 +121,7 @@ const Index = () => {
                                   >
                                     <path
                                       id="path1009"
+                                      fill="#ffffff"
                                       d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99  h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z"
                                     ></path>
                                   </g>
@@ -122,7 +137,10 @@ const Index = () => {
                                 <span className="elementor-screen-only">
                                   Instagram
                                 </span>
-                                <i className="fab fa-instagram"></i>
+                                <FontAwesomeIcon
+                                  style={{ color: "white" }}
+                                  icon={faInstagram}
+                                />
                               </a>
                             </span>
                             <span className="elementor-grid-item">
@@ -134,7 +152,10 @@ const Index = () => {
                                 <span className="elementor-screen-only">
                                   Youtube
                                 </span>
-                                <i className="fab fa-youtube"></i>
+                                <FontAwesomeIcon
+                                  style={{ color: "white" }}
+                                  icon={faYoutube}
+                                />
                               </a>
                             </span>
                             <span className="elementor-grid-item">
@@ -146,7 +167,10 @@ const Index = () => {
                                 <span className="elementor-screen-only">
                                   Whatsapp
                                 </span>
-                                <i className="fab fa-whatsapp"></i>
+                                <FontAwesomeIcon
+                                  style={{ color: "white" }}
+                                  icon={faWhatsapp}
+                                />
                               </a>
                             </span>
                             <span className="elementor-grid-item">
@@ -186,7 +210,7 @@ const Index = () => {
                         data-widget_type="text-editor.default"
                       >
                         <div className="elementor-widget-container">
-                          Designed By : Hello Pixels
+                          Designed By : Owaisy Creations
                         </div>
                       </div>
                     </div>

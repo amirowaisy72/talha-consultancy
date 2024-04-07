@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutUs from "../About/Index";
 import OurTeam from "../../CompanySetup/Freezone/OurTeam/Index";
 import Companies from "../Companies/Index";
@@ -8,8 +8,17 @@ import { useLocation } from "react-router-dom";
 
 const Index = () => {
   const location = useLocation();
+  useEffect(() => {
+    const element = document.getElementById("start");
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  }, []);
   return (
-    <div>
+    <div id="start">
       <style
         type="text/css"
         id="nitro-critical-css"

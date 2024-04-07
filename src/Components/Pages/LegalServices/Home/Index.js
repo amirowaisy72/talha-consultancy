@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "../styles.css";
 import TopLine from "../CommonComponents/TopLine/Index";
@@ -22,9 +22,18 @@ import Tax from "../Tax/Index";
 
 const Index = () => {
   const location = useLocation();
+  useEffect(() => {
+    const element = document.getElementById("start");
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  }, []);
   return (
     <div>
-      <div className="legal-services attorna-body-outer-wrapper ">
+      <div className="legal-services attorna-body-outer-wrapper" id="start">
         <div className="attorna-body-wrapper clearfix  attorna-with-frame">
           <TopLine />
           <div className="attorna-page-wrapper" id="attorna-page-wrapper">

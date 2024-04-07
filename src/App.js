@@ -56,7 +56,6 @@ function App() {
             <a className="skip-link screen-reader-text" href="#content">
               Skip to content
             </a>
-            test
             <NavBar setIsDrawerOpen={setIsDrawerOpen} />
             <div id="content" className="site-content">
               <div className="ast-container">
@@ -149,11 +148,6 @@ function App() {
                         exact
                         path="/offshore/consultation"
                         element={<OffshoreConsultation />}
-                      ></Route>
-                      <Route
-                        exact
-                        path="/otherServices"
-                        element={<OtherServices />}
                       ></Route>
                       <Route
                         exact

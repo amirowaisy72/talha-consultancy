@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Header = () => {
+  useEffect(() => {
+    const element = document.getElementById("start");
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  }, []);
   return (
     <section
       className="elementor-section elementor-top-section elementor-element elementor-element-3484555 elementor-section-height-min-height inner-banner elementor-section-items-bottom elementor-section-boxed elementor-section-height-default"
       data-id={3484555}
       data-element_type="section"
       data-settings='{"background_background":"classic"}'
+      id="start"
     >
       <div className="elementor-background-overlay" />
       <div className="elementor-container elementor-column-gap-no">

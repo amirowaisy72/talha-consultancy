@@ -5,7 +5,6 @@ const Form = () => {
     <>
       <form
         className="elementor-form"
-        method="post"
         name="Request For free consultation"
       >
         <input type="hidden" name="post_id" value="45463" />

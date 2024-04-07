@@ -100,8 +100,7 @@ const Content = () => {
                     fontWeight: "inherit",
                     backgroundColor: "#ffffff",
                   }}
-                  href="dubai/index.html"
-                  target="_blank"
+                  href="#"
                   rel="noopener"
                 >
                   business setup
@@ -120,7 +119,7 @@ const Content = () => {
                     fontWeight: "inherit",
                     backgroundColor: "#ffffff",
                   }}
-                  href="accounting-services-in-dubai/index.html"
+                  href="#"
                 >
                   accounting
                 </a>
@@ -138,7 +137,7 @@ const Content = () => {
                     fontWeight: "inherit",
                     backgroundColor: "#ffffff",
                   }}
-                  href="auditing-services-in-dubai/index.html"
+                  href="#"
                 >
                   auditing
                 </a>

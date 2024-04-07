@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const RightSide = () => {
   return (
@@ -76,9 +77,9 @@ const RightSide = () => {
                 businesses by means of business analysis, creative insight and
                 industry benchmarking. Our experienced and knowledgeable team of
                 accountants and
-                <a href="auditing-services-in-dubai/index.html">
+                <Link to="/auditing">
                   auditors in Dubai
-                </a>
+                </Link>
                 , who are part of the top auditing companies in Dubai, also
                 serves as a sounding board for crucial financial decisions, and
                 provides dependable strategic leadership.
@@ -110,9 +111,9 @@ const RightSide = () => {
               <p>
                 <span style={{ fontWeight: 400 }}>
                   Being the
-                  <a href="best-audit-firms-list-in-uae-dubai-abu-dhabi-and-fujairah-2023/index.html">
+                  <Link to="/auditing">
                     top accounting firms in Dubai
-                  </a>
+                  </Link>
                   , our company offers a range of services to help you remain
                   competitive in the current market, from tactical improvements
                   to large-scale transformations. Our business consultants,
@@ -133,9 +134,9 @@ const RightSide = () => {
           >
             <div className="elementor-widget-container">
               <div className="elementor-button-wrapper">
-                <a
+                <Link
                   className="elementor-button elementor-button-link elementor-size-sm"
-                  href="about/index.html"
+                  to="about-us/home/about"
                 >
                   <span className="elementor-button-content-wrapper">
                     <span className="elementor-button-icon elementor-align-icon-right">
@@ -152,7 +153,7 @@ const RightSide = () => {
                     </span>
                     <span className="elementor-button-text">Read More</span>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

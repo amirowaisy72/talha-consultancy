@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Left = () => {
   return (
@@ -188,9 +189,9 @@ const Left = () => {
                         <h3 className="elementor-image-box-title">INTEGRITY</h3>
                         <p className="elementor-image-box-description">
                           We are committed to providing premium
-                          <a href="accounting-services-in-dubai/index.html">
+                          <Link to="accounting/accounting-services">
                             accounting services in Dubai
-                          </a>
+                          </Link>
                           with utmost integrity. What’s more, we strive to
                           deliver ethical, trustworthy, and reliable services
                           that best suit our clients' needs.

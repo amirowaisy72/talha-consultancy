@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Slider = () => {
+  useEffect(() => {
+    const element = document.getElementById("start");
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  }, []);
   return (
     <>
-      <div className="elementor-widget-container">
+      <div id="start" className="elementor-widget-container">
         <a href="dubai/business-setup-dubai/index.html" target="_blank">
           <img
             fetchpriority="high"

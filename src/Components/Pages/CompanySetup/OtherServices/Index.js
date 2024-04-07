@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Section1 from "./Section1/Index";
 import Experience from "../Freezone/Overview/Section3/Left";
 import Section2 from "./Section2/Index";
@@ -10,9 +10,18 @@ import Section7 from "./Section7/Index";
 import Section8 from "./Section8/Index";
 
 const Index = () => {
+  useEffect(() => {
+    const element = document.getElementById("start");
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  }, []);
   return (
     <>
-      <div style={{ marginBottom: "30px" }}>
+      <div id="start" style={{ marginBottom: "30px" }}>
         <Section1 />
       </div>
       <center>

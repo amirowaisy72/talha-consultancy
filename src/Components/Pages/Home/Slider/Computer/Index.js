@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <>
       <div className="elementor-widget-container">
-        <a href="dubai/business-setup-dubai/index.html" target="_blank">
+        <a href="#">
           <img
             fetchpriority="high"
             decoding="async"

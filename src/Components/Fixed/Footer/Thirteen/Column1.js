@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Column1 = () => {
   return (
@@ -51,15 +52,15 @@ const Column1 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a
-                        href="free-zone-business-setup/index.html"
+                      <Link
+                        to="freezone/overview"
                         className="uael-menu-item"
                       >
                         Free zone Business
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
                         </span>
-                      </a>
+                      </Link>
                     </li>
 
                     <li
@@ -67,15 +68,15 @@ const Column1 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a
-                        href="mainland-company-setup/index.html"
+                      <Link
+                        to="mainland/overview"
                         className="uael-menu-item"
                       >
                         Mainland Company
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
                         </span>
-                      </a>
+                      </Link>
                     </li>
 
                     <li
@@ -84,7 +85,7 @@ const Column1 = () => {
                       data-dropdown-pos="left"
                     >
                       <a
-                        href="company-liquidation/index.html"
+                        href="#"
                         className="uael-menu-item"
                       >
                         Company Liquidation
@@ -100,7 +101,7 @@ const Column1 = () => {
                       data-dropdown-pos="left"
                     >
                       <a
-                        href="business-license/index.html"
+                        href="#"
                         className="uael-menu-item"
                       >
                         Business License
@@ -116,7 +117,7 @@ const Column1 = () => {
                       data-dropdown-pos="left"
                     >
                       <a
-                        href="rental-office/index.html"
+                        href="#"
                         className="uael-menu-item"
                       >
                         Rental Office

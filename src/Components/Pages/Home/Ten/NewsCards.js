@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NewsCards = () => {
   return (
@@ -28,16 +29,15 @@ const NewsCards = () => {
               <div className="uael-post-grid__inner uael-post__columns-3 uael-post__columns-tablet-2 uael-post__columns-mobile-1">
                 <div className="uael-post-wrapper blog">
                   <div className="uael-post__bg-wrap">
-                    <a
-                      href="anti-money-laundering-law-for-real-estate-companies-in-uae/index.html"
-                      target="_self"
+                    <Link
+                      to="news/home/blogs"
                       className="uael-post__complete-box-overlay"
                       aria-label="Link Complete Box"
-                    ></a>
+                    ></Link>
                     <div className="uael-post__inner-wrap">
                       <div className="uael-post__thumbnail">
-                        <a
-                          href="anti-money-laundering-law-for-real-estate-companies-in-uae/index.html"
+                        <Link
+                          to="news/home/blogs"
                           target="_self"
                           title="Anti-Money Laundering (AML) Law Simplified for Real Estate Companies in the UAE"
                         >
@@ -56,20 +56,19 @@ const NewsCards = () => {
                                                   "
                             sizes="(max-width: 1024px) 100vw, 1024px"
                           />
-                        </a>
+                        </Link>
                         <span className="uael-post__terms">
                           <span className="uael-listing__terms-link">Blog</span>
                         </span>
                       </div>
                       <div className="uael-post__content-wrap">
                         <h4 className="uael-post__title">
-                          <a
-                            href="anti-money-laundering-law-for-real-estate-companies-in-uae/index.html"
-                            target="_self"
+                          <Link
+                            to="news/home/blogs"
                           >
                             Anti-Money Laundering (AML) Law Simplified for Real
                             Estate Companies in the UAE
-                          </a>
+                          </Link>
                         </h4>
                         <div className="uael-post__meta-data">
                           <span className="uael-post__date">March 5, 2024</span>
@@ -81,10 +80,9 @@ const NewsCards = () => {
                           It&#8217;s an understatement to say that the UAE has
                           emerged ...
                         </div>
-                        <a
+                        <Link
                           className="uael-post__read-more elementor-button"
-                          href="anti-money-laundering-law-for-real-estate-companies-in-uae/index.html"
-                          target="_self"
+                          to="news/home/blogs"
                           aria-labelledby="uael-post-54066"
                         >
                           <span className="elementor-button-content-wrapper">
@@ -105,24 +103,22 @@ const NewsCards = () => {
                               id="uael-post-54066"
                             ></span>
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="uael-post-wrapper blog">
                   <div className="uael-post__bg-wrap">
-                    <a
-                      href="will-remuneration-paid-to-management-be-a-deductible-expense-for-corporate-tax-purposes/index.html"
-                      target="_self"
+                    <Link
+                      to="news/home/blogs"
                       className="uael-post__complete-box-overlay"
                       aria-label="Link Complete Box"
-                    ></a>
+                    ></Link>
                     <div className="uael-post__inner-wrap">
                       <div className="uael-post__thumbnail">
-                        <a
-                          href="will-remuneration-paid-to-management-be-a-deductible-expense-for-corporate-tax-purposes/index.html"
-                          target="_self"
+                        <Link
+                          to="news/home/blogs"
                           title="Will Remuneration Paid To Management Be a Deductible Expense For Corporate Tax Purposes?"
                         >
                           <img
@@ -140,20 +136,19 @@ const NewsCards = () => {
                                                   "
                             sizes="(max-width: 1024px) 100vw, 1024px"
                           />
-                        </a>
+                        </Link>
                         <span className="uael-post__terms">
                           <span className="uael-listing__terms-link">Blog</span>
                         </span>
                       </div>
                       <div className="uael-post__content-wrap">
                         <h4 className="uael-post__title">
-                          <a
-                            href="will-remuneration-paid-to-management-be-a-deductible-expense-for-corporate-tax-purposes/index.html"
-                            target="_self"
+                          <Link
+                            to="news/home/blogs"
                           >
                             Will Remuneration Paid To Management Be a Deductible
                             Expense For Corporate Tax Purposes?
-                          </a>
+                          </Link>
                         </h4>
                         <div className="uael-post__meta-data">
                           <span className="uael-post__date">March 5, 2024</span>
@@ -165,10 +160,9 @@ const NewsCards = () => {
                           It&#8217;s high time that we address the massive
                           corporate roadblock, ...
                         </div>
-                        <a
+                        <Link
                           className="uael-post__read-more elementor-button"
-                          href="will-remuneration-paid-to-management-be-a-deductible-expense-for-corporate-tax-purposes/index.html"
-                          target="_self"
+                          to="news/home/blogs"
                           aria-labelledby="uael-post-54054"
                         >
                           <span className="elementor-button-content-wrapper">
@@ -189,24 +183,22 @@ const NewsCards = () => {
                               id="uael-post-54054"
                             ></span>
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="uael-post-wrapper blog">
                   <div className="uael-post__bg-wrap">
-                    <a
-                      href="corporate-tax-and-vat-payments-in-uae/index.html"
-                      target="_self"
+                    <Link
+                      to="news/home/blogs"
                       className="uael-post__complete-box-overlay"
                       aria-label="Link Complete Box"
-                    ></a>
+                    ></Link>
                     <div className="uael-post__inner-wrap">
                       <div className="uael-post__thumbnail">
-                        <a
-                          href="corporate-tax-and-vat-payments-in-uae/index.html"
-                          target="_self"
+                        <Link
+                          to="news/home/blogs"
                           title="Corporate TAX and VAT Payments in UAE : Know Everything From Tax Consultant in Dubai"
                         >
                           <img
@@ -224,20 +216,19 @@ const NewsCards = () => {
                                                   "
                             sizes="(max-width: 1024px) 100vw, 1024px"
                           />
-                        </a>
+                        </Link>
                         <span className="uael-post__terms">
                           <span className="uael-listing__terms-link">Blog</span>
                         </span>
                       </div>
                       <div className="uael-post__content-wrap">
                         <h4 className="uael-post__title">
-                          <a
-                            href="corporate-tax-and-vat-payments-in-uae/index.html"
-                            target="_self"
+                          <Link
+                            to="news/home/blogs"
                           >
                             Corporate TAX and VAT Payments in UAE : Know
                             Everything From Tax Consultant in Dubai
-                          </a>
+                          </Link>
                         </h4>
                         <div className="uael-post__meta-data">
                           <span className="uael-post__date">
@@ -251,10 +242,9 @@ const NewsCards = () => {
                           The UAE has carved a distinctive niche for itself when
                           ...
                         </div>
-                        <a
+                        <Link
                           className="uael-post__read-more elementor-button"
-                          href="corporate-tax-and-vat-payments-in-uae/index.html"
-                          target="_self"
+                          to="news/home/blogs"
                           aria-labelledby="uael-post-53970"
                         >
                           <span className="elementor-button-content-wrapper">
@@ -275,7 +265,7 @@ const NewsCards = () => {
                               id="uael-post-53970"
                             ></span>
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

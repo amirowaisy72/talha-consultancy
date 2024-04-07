@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./output.css";
 import Section1 from "./Section1/Index";
 import Bars3 from "../../../../CommonComponents/Bars3/Index";
@@ -12,6 +12,15 @@ import Section7 from "./Section7/Index";
 import Section16 from "./Section16/Index";
 
 const Index = () => {
+  useEffect(() => {
+    const element = document.getElementById("overviewPage");
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  }, []);
   return (
     <>
       <article

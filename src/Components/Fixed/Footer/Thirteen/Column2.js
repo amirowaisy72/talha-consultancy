@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Column2 = () => {
   return (
@@ -51,15 +52,15 @@ const Column2 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a
-                        href="accounting-services-dubai/index.html"
+                      <Link
+                        to="accounting/accounting-services"
                         className="uael-menu-item"
                       >
                         Accounting Service
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
                         </span>
-                      </a>
+                      </Link>
                     </li>
 
                     <li
@@ -67,15 +68,15 @@ const Column2 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a
-                        href="bookkeeping-services-dubai-uae/index.html"
+                      <Link
+                        to="accounting/bookkeeping-services"
                         className="uael-menu-item"
                       >
                         Bookkeeping Service
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
                         </span>
-                      </a>
+                      </Link>
                     </li>
 
                     <li
@@ -83,15 +84,15 @@ const Column2 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a
-                        href="external-internal-audit/index.html"
+                      <Link
+                        to="auditing"
                         className="uael-menu-item"
                       >
                         External and Internal Audit
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
                         </span>
-                      </a>
+                      </Link>
                     </li>
 
                     <li
@@ -99,15 +100,15 @@ const Column2 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a
-                        href="internal-audit/index.html"
+                      <Link
+                        to="/auditing"
                         className="uael-menu-item"
                       >
                         Internal Audit
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
                         </span>
-                      </a>
+                      </Link>
                     </li>
 
                     <li
@@ -115,15 +116,15 @@ const Column2 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a
-                        href="external-audit/index.html"
+                      <Link
+                        to="/auditing"
                         className="uael-menu-item"
                       >
                         External Audit
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
                         </span>
-                      </a>
+                      </Link>
                     </li>
 
                     <li
@@ -132,7 +133,7 @@ const Column2 = () => {
                       data-dropdown-pos="left"
                     >
                       <a
-                        href="company-incorporation/index.html"
+                        href="#"
                         className="uael-menu-item"
                       >
                         Company Incorporation
@@ -147,12 +148,12 @@ const Column2 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a href="vat-fines/index.html" className="uael-menu-item">
+                      <Link to="/advisory-&-consultation" className="uael-menu-item">
                         VAT Fines
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

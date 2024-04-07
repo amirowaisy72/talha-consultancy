@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Cards = () => {
   return (
@@ -66,8 +67,8 @@ const Cards = () => {
                             success
                           </div>
                           <div className="uael-infobox-cta-link-style">
-                            <a
-                              href="dubai/index.html"
+                            <Link
+                              to="freezone/overview"
                               className="uael-infobox-cta-link"
                             >
                               <span
@@ -89,7 +90,7 @@ const Cards = () => {
                                   <path d="m4 11.5h14.793l-7.14652-7.14648a.5.5 0 0 1 .707-.707l8 8a.49983.49983 0 0 1 0 .707l-8 8a.5.5 0 0 1 -.707-.707l7.14652-7.14652h-14.793a.5.5 0 0 1 0-1z"></path>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -147,8 +148,8 @@ const Cards = () => {
                             management needs and requirements.
                           </div>
                           <div className="uael-infobox-cta-link-style">
-                            <a
-                              href="https://aalegal.ae/"
+                            <Link
+                              to="legal-services/home/aviation"
                               className="uael-infobox-cta-link"
                             >
                               <span
@@ -170,7 +171,7 @@ const Cards = () => {
                                   <path d="m4 11.5h14.793l-7.14652-7.14648a.5.5 0 0 1 .707-.707l8 8a.49983.49983 0 0 1 0 .707l-8 8a.5.5 0 0 1 -.707-.707l7.14652-7.14652h-14.793a.5.5 0 0 1 0-1z"></path>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -236,8 +237,8 @@ const Cards = () => {
                             advice for several accounting companies in Dubai.
                           </div>
                           <div className="uael-infobox-cta-link-style">
-                            <a
-                              href="accounting-services-in-dubai/index.html"
+                            <Link
+                              to="accounting/accounting-services"
                               className="uael-infobox-cta-link"
                             >
                               <span
@@ -259,7 +260,7 @@ const Cards = () => {
                                   <path d="m4 11.5h14.793l-7.14652-7.14648a.5.5 0 0 1 .707-.707l8 8a.49983.49983 0 0 1 0 .707l-8 8a.5.5 0 0 1 -.707-.707l7.14652-7.14652h-14.793a.5.5 0 0 1 0-1z"></path>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -317,8 +318,8 @@ const Cards = () => {
                             majors in the United Arab Emirates.
                           </div>
                           <div className="uael-infobox-cta-link-style">
-                            <a
-                              href="adnoc-in-country-value-icv-certification/index.html"
+                            <Link
+                              to="auditing/icv-certification"
                               className="uael-infobox-cta-link"
                             >
                               <span
@@ -340,7 +341,7 @@ const Cards = () => {
                                   <path d="m4 11.5h14.793l-7.14652-7.14648a.5.5 0 0 1 .707-.707l8 8a.49983.49983 0 0 1 0 .707l-8 8a.5.5 0 0 1 -.707-.707l7.14652-7.14652h-14.793a.5.5 0 0 1 0-1z"></path>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -402,7 +403,7 @@ const Cards = () => {
                             data-elementor-inline-editing-toolbar="advanced"
                           >
                             By adopting quality
-                            <a href="auditing-services-in-dubai/index.html">
+                            <a href="#">
                               audit services in the UAE
                             </a>
                             , you can be sure that your company is in compliance
@@ -410,8 +411,8 @@ const Cards = () => {
                             standards.
                           </div>
                           <div className="uael-infobox-cta-link-style">
-                            <a
-                              href="auditing-services-in-dubai/index.html"
+                            <Link
+                              to="/auditing"
                               className="uael-infobox-cta-link"
                             >
                               <span
@@ -433,7 +434,7 @@ const Cards = () => {
                                   <path d="m4 11.5h14.793l-7.14652-7.14648a.5.5 0 0 1 .707-.707l8 8a.49983.49983 0 0 1 0 .707l-8 8a.5.5 0 0 1 -.707-.707l7.14652-7.14652h-14.793a.5.5 0 0 1 0-1z"></path>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -492,8 +493,8 @@ const Cards = () => {
                             assets.
                           </div>
                           <div className="uael-infobox-cta-link-style">
-                            <a
-                              href="liquidation-dda/index.html"
+                            <Link
+                              href="#"
                               className="uael-infobox-cta-link"
                             >
                               <span
@@ -515,7 +516,7 @@ const Cards = () => {
                                   <path d="m4 11.5h14.793l-7.14652-7.14648a.5.5 0 0 1 .707-.707l8 8a.49983.49983 0 0 1 0 .707l-8 8a.5.5 0 0 1 -.707-.707l7.14652-7.14652h-14.793a.5.5 0 0 1 0-1z"></path>
                                 </svg>
                               </span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>

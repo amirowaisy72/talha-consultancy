@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NavBottom from "../../CommonComponents/NavsBottom/Index"
+import NavRight from "../../CommonComponents/NavRight/Index"
 
 const NavBar = () => {
   return (
@@ -67,9 +69,8 @@ const NavBar = () => {
                           id="mega-menu-item-408"
                         >
                           <a
-                            target="_blank"
                             className="mega-menu-link"
-                            href="dubai/index.html"
+                            href="#"
                             aria-haspopup="true"
                             aria-expanded="false"
                             tabindex="0"
@@ -92,8 +93,7 @@ const NavBar = () => {
                                       <div className="textwidget custom-html-widget">
                                         <h4>
                                           <a
-                                            href="dubai/freezone-company-formation/index.html"
-                                            target="_blank"
+                                            href="#"
                                             rel="noopener"
                                           >
                                             Freezone
@@ -362,7 +362,7 @@ const NavBar = () => {
                                           <a
                                             target="_blank"
                                             className="mega-menu-link"
-                                            href="dubai/offers/index.html"
+                                            href="#"
                                           >
                                             Offers
                                           </a>
@@ -434,7 +434,7 @@ const NavBar = () => {
                                       <a
                                         target="_blank"
                                         className="mega-menu-link"
-                                        href="dubai/contact-us/index.html"
+                                        href="#"
                                       >
                                         Free Consultation
                                       </a>
@@ -443,70 +443,7 @@ const NavBar = () => {
                                 </li>
                               </ul>
                             </li>
-                            <li
-                              className="mega-menu-row mega-megamenu-bottom-row megamenu-bottom-row"
-                              id="mega-menu-408-2"
-                            >
-                              <ul className="mega-sub-menu">
-                                <li
-                                  className="mega-menu-column mega-menu-columns-8-of-12"
-                                  id="mega-menu-408-2-0"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-41"
-                                      id="mega-menu-item-custom_html-41"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="offer-block">
-                                          <div className="offer-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/offer-icon.png"
-                                              alt="Offer"
-                                            />
-                                          </div>
-                                          <div className="offer-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Special Offers</h5>
-                                            <a
-                                              href="dubai/offers/index.html"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-408-2-1"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-42"
-                                      id="mega-menu-item-custom_html-42"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <a
-                                          href="contact-us/indexd41d.html?#free-consultation"
-                                          className="btn"
-                                        >
-                                          Request Free Business Consultation
-                                        </a>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
+                            <NavBottom />
                           </ul>
                         </li>
                         <li
@@ -515,7 +452,7 @@ const NavBar = () => {
                         >
                           <a
                             className="mega-menu-link"
-                            href="accounting-services-in-dubai/index.html"
+                            href="#"
                             aria-haspopup="true"
                             aria-expanded="false"
                             tabindex="0"
@@ -646,153 +583,9 @@ const NavBar = () => {
                                     </li>
                                   </ul>
                                 </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-46666-1-2"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-65"
-                                      id="mega-menu-item-custom_html-65"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="menu-img-block">
-                                          <div className="menu-img-img">
-                                            <img
-                                              alt="Legal"
-                                              nitro-lazy-src="https://www.aaconsultancy.ae/wp-content/uploads/2021/10/legal-icon.png"
-                                              className="lazyloaded"
-                                              nitro-lazy-empty
-                                              id="MjI4Mjo5OA==-1"
-                                              src="wp-content/uploads/2021/10/legal-icon.png"
-                                            />
-                                          </div>
-                                          <div className="menu-img-content">
-                                            <h6>A&amp;A; Associate</h6>
-                                            <h5>Legal Service</h5>
-                                            <Link
-                                              to="/accounting/accounting-legal-services"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                alt="arrow"
-                                                nitro-lazy-src="https://www.aaconsultancy.ae/wp-content/uploads/2021/10/link-arrow.png"
-                                                className="lazyloaded"
-                                                nitro-lazy-empty
-                                                id="MjI4NzoxODc=-1"
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                              />
-                                            </Link>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-66"
-                                      id="mega-menu-item-custom_html-66"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="menu-img-block">
-                                          <div className="menu-img-img">
-                                            <img
-                                              alt="Offer"
-                                              nitro-lazy-src="https://www.aaconsultancy.ae/wp-content/uploads/2021/10/businesssetup-icon.png"
-                                              className="lazyloaded"
-                                              nitro-lazy-empty
-                                              id="MjA1NzoxMDY=-1"
-                                              src="wp-content/uploads/2021/10/businesssetup-icon.png"
-                                            />
-                                          </div>
-                                          <div className="menu-img-content">
-                                            <h6>A&amp;A; Associate</h6>
-                                            <h5>Business Setup</h5>
-                                            <Link
-                                              to="/accounting/business-setup"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                alt="arrow"
-                                                nitro-lazy-src="https://www.aaconsultancy.ae/wp-content/uploads/2021/10/link-arrow.png"
-                                                className="lazyloaded"
-                                                nitro-lazy-empty
-                                                id="MjA2MjoxODc=-1"
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                              />
-                                            </Link>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
                               </ul>
                             </li>
-                            <li
-                              className="mega-menu-row mega-megamenu-bottom-row megamenu-bottom-row"
-                              id="mega-menu-46666-2"
-                            >
-                              <ul className="mega-sub-menu">
-                                <li
-                                  className="mega-menu-column mega-menu-columns-8-of-12"
-                                  id="mega-menu-46666-2-0"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-63"
-                                      id="mega-menu-item-custom_html-63"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="offer-block">
-                                          <div className="offer-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/offer-icon.png"
-                                              alt="Offer"
-                                            />
-                                          </div>
-                                          <div className="offer-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Special Offers</h5>
-                                            <a
-                                              href="dubai/offers/index.html"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-46666-2-1"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-64"
-                                      id="mega-menu-item-custom_html-64"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <a
-                                          href="contact-us/indexd41d.html?#free-consultation"
-                                          className="btn"
-                                        >
-                                          Request Free Business Consultation
-                                        </a>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
+                            <NavBottom />
                           </ul>
                         </li>
                         <li
@@ -801,7 +594,7 @@ const NavBar = () => {
                         >
                           <a
                             className="mega-menu-link"
-                            href="auditing-services-in-dubai/index.html"
+                            href="#"
                             aria-haspopup="true"
                             aria-expanded="false"
                             tabindex="0"
@@ -927,70 +720,7 @@ const NavBar = () => {
                                 </li>
                               </ul>
                             </li>
-                            <li
-                              className="mega-menu-row mega-megamenu-bottom-row megamenu-bottom-row"
-                              id="mega-menu-46668-1"
-                            >
-                              <ul className="mega-sub-menu">
-                                <li
-                                  className="mega-menu-column mega-menu-columns-8-of-12"
-                                  id="mega-menu-46668-1-0"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-70"
-                                      id="mega-menu-item-custom_html-70"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="offer-block">
-                                          <div className="offer-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/offer-icon.png"
-                                              alt="Offer"
-                                            />
-                                          </div>
-                                          <div className="offer-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Special Offers</h5>
-                                            <a
-                                              href="dubai/offers/index.html"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-46668-1-1"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-71"
-                                      id="mega-menu-item-custom_html-71"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <a
-                                          href="contact-us/indexd41d.html?#free-consultation"
-                                          className="btn"
-                                        >
-                                          Request Free Business Consultation
-                                        </a>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
+                            <NavBottom />
                           </ul>
                         </li>
                         <li
@@ -1582,70 +1312,7 @@ const NavBar = () => {
                                 </li>
                               </ul>
                             </li>
-                            <li
-                              className="mega-menu-row mega-megamenu-bottom-row megamenu-bottom-row"
-                              id="mega-menu-36921-1"
-                            >
-                              <ul className="mega-sub-menu">
-                                <li
-                                  className="mega-menu-column mega-menu-columns-8-of-12"
-                                  id="mega-menu-36921-1-0"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-39"
-                                      id="mega-menu-item-custom_html-39"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="offer-block">
-                                          <div className="offer-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/offer-icon.png"
-                                              alt="Offer"
-                                            />
-                                          </div>
-                                          <div className="offer-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Special Offers</h5>
-                                            <a
-                                              href="dubai/offers/index.html"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-36921-1-1"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-40"
-                                      id="mega-menu-item-custom_html-40"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <a
-                                          href="contact-us/indexd41d.html?#free-consultation"
-                                          className="btn"
-                                        >
-                                          Request Free Business Consultation
-                                        </a>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
+                            <NavBottom />
                           </ul>
                         </li>
                         <li
@@ -2234,70 +1901,7 @@ const NavBar = () => {
                                 </li>
                               </ul>
                             </li>
-                            <li
-                              className="mega-menu-row mega-megamenu-bottom-row megamenu-bottom-row"
-                              id="mega-menu-35734-3"
-                            >
-                              <ul className="mega-sub-menu">
-                                <li
-                                  className="mega-menu-column mega-menu-columns-8-of-12"
-                                  id="mega-menu-35734-3-0"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-25"
-                                      id="mega-menu-item-custom_html-25"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="offer-block">
-                                          <div className="offer-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/offer-icon.png"
-                                              alt="Offer"
-                                            />
-                                          </div>
-                                          <div className="offer-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Special Offers</h5>
-                                            <a
-                                              href="dubai/offers/index.html"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-35734-3-1"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-26"
-                                      id="mega-menu-item-custom_html-26"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <a
-                                          href="contact-us/indexd41d.html?#free-consultation"
-                                          className="btn"
-                                        >
-                                          Request Free Business Consultation
-                                        </a>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
+                            <NavBottom />
                           </ul>
                         </li>
                         <li
@@ -2423,139 +2027,10 @@ const NavBar = () => {
                                     </li>
                                   </ul>
                                 </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-1095-1-2"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-43"
-                                      id="mega-menu-item-custom_html-43"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="menu-img-block">
-                                          <div className="menu-img-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/legal-icon.png"
-                                              alt="Legal"
-                                            />
-                                          </div>
-                                          <div className="menu-img-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Legal Service</h5>
-                                            <a
-                                              href="https://aalegal.ae/"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-44"
-                                      id="mega-menu-item-custom_html-44"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="menu-img-block">
-                                          <div className="menu-img-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/businesssetup-icon.png"
-                                              alt="Offer"
-                                            />
-                                          </div>
-                                          <div className="menu-img-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Business Setup</h5>
-                                            <a
-                                              href="dubai/index.html"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
+                                <NavRight />
                               </ul>
                             </li>
-                            <li
-                              className="mega-menu-row mega-megamenu-bottom-row megamenu-bottom-row"
-                              id="mega-menu-1095-2"
-                            >
-                              <ul className="mega-sub-menu">
-                                <li
-                                  className="mega-menu-column mega-menu-columns-8-of-12"
-                                  id="mega-menu-1095-2-0"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-45"
-                                      id="mega-menu-item-custom_html-45"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="offer-block">
-                                          <div className="offer-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/offer-icon.png"
-                                              alt="Offer"
-                                            />
-                                          </div>
-                                          <div className="offer-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Special Offers</h5>
-                                            <a
-                                              href="dubai/offers/index.html"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-1095-2-1"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-46"
-                                      id="mega-menu-item-custom_html-46"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <a
-                                          href="contact-us/indexd41d.html?#free-consultation"
-                                          className="btn"
-                                        >
-                                          Request Free Business Consultation
-                                        </a>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
+                            <NavBottom />
                           </ul>
                         </li>
                         <li
@@ -2657,7 +2132,7 @@ const NavBar = () => {
                                         className="mega-menu-link"
                                         href="#"
                                       >
-                                        A&#038;A Media
+                                        Talha Consultancy Media
                                       </a>
                                     </li>
                                     <li
@@ -2686,139 +2161,10 @@ const NavBar = () => {
                                     </li>
                                   </ul>
                                 </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-409-1-2"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-48"
-                                      id="mega-menu-item-custom_html-48"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="menu-img-block">
-                                          <div className="menu-img-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/legal-icon.png"
-                                              alt="Legal"
-                                            />
-                                          </div>
-                                          <div className="menu-img-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Legal Service</h5>
-                                            <a
-                                              href="https://aalegal.ae/"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-49"
-                                      id="mega-menu-item-custom_html-49"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="menu-img-block">
-                                          <div className="menu-img-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/businesssetup-icon.png"
-                                              alt="Offer"
-                                            />
-                                          </div>
-                                          <div className="menu-img-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Business Setup</h5>
-                                            <a
-                                              href="dubai/index.html"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
+                                <NavRight />
                               </ul>
                             </li>
-                            <li
-                              className="mega-menu-row mega-megamenu-bottom-row megamenu-bottom-row"
-                              id="mega-menu-409-2"
-                            >
-                              <ul className="mega-sub-menu">
-                                <li
-                                  className="mega-menu-column mega-menu-columns-8-of-12"
-                                  id="mega-menu-409-2-0"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-50"
-                                      id="mega-menu-item-custom_html-50"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <div className="offer-block">
-                                          <div className="offer-img">
-                                            <img
-                                              src="wp-content/uploads/2021/10/offer-icon.png"
-                                              alt="Offer"
-                                            />
-                                          </div>
-                                          <div className="offer-content">
-                                            <h6>A&A Associate</h6>
-                                            <h5>Special Offers</h5>
-                                            <a
-                                              href="dubai/offers/index.html"
-                                              target="_blank"
-                                              rel="noopener"
-                                            >
-                                              Contact Now
-                                              <img
-                                                src="wp-content/uploads/2021/10/link-arrow.png"
-                                                alt="arrow"
-                                              />
-                                            </a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-409-2-1"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-51"
-                                      id="mega-menu-item-custom_html-51"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <a
-                                          href="contact-us/indexd41d.html?#free-consultation"
-                                          className="btn"
-                                        >
-                                          Request Free Business Consultation
-                                        </a>
-                                      </div>
-                                    </li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
+                            <NavBottom />
                           </ul>
                         </li>
                         <li

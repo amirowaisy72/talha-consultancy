@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AccountingHeader from "../CommonComponents/AccountingHeader/Index";
 import Section1 from "./Section1/Index";
 import Section2 from "./Section2/Index";
@@ -6,6 +6,15 @@ import Section3 from "./Section3/Index";
 import ContactusForm from "../../../CommonComponents/ContactUseForm/Form";
 
 const Index = () => {
+  useEffect(() => {
+    const element = document.getElementById("start");
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  }, []);
   return (
     <>
       <AccountingHeader />

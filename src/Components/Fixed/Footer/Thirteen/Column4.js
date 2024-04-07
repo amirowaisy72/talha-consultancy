@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Column4 = () => {
   return (
@@ -51,15 +52,15 @@ const Column4 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a
-                        href="happy-customers/index.html"
+                      <Link
+                        to="about-us/home/happy-customers"
                         className="uael-menu-item"
                       >
                         Happy Customers
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
                         </span>
-                      </a>
+                      </Link>
                     </li>
 
                     <li
@@ -67,7 +68,7 @@ const Column4 = () => {
                       data-dropdown-width="default"
                       data-dropdown-pos="left"
                     >
-                      <a href="clients/index.html" className="uael-menu-item">
+                      <a href="#" className="uael-menu-item">
                         Clients
                         <span className="uael-menu-toggle sub-arrow parent-item">
                           <i className="fa"></i>
@@ -81,7 +82,7 @@ const Column4 = () => {
                       data-dropdown-pos="left"
                     >
                       <a
-                        href="privacy-policy/index.html"
+                        href="#"
                         className="uael-menu-item"
                       >
                         Privacy Policy
@@ -97,7 +98,7 @@ const Column4 = () => {
                       data-dropdown-pos="left"
                     >
                       <a
-                        href="refund-policy/index.html"
+                        href="#"
                         className="uael-menu-item"
                       >
                         Refund Policy
@@ -113,7 +114,7 @@ const Column4 = () => {
                       data-dropdown-pos="left"
                     >
                       <a
-                        href="terms-and-conditions/index.html"
+                        href="#"
                         className="uael-menu-item"
                       >
                         Terms & Conditions
@@ -129,7 +130,7 @@ const Column4 = () => {
                       data-dropdown-pos="left"
                     >
                       <a
-                        href="https://hellopixels.com/"
+                        href="#"
                         target="_blank"
                         className="uael-menu-item"
                       >

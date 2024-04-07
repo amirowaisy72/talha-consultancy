@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./output.css";
 import Section1 from "./Section1/Index";
 import Section2 from "./Section2/Index";
@@ -8,6 +8,15 @@ import ConsultationTeam from "../../../../CommonComponents/ConsultationTeam/Inde
 import GovtAgencies from "../../../../CommonComponents/GovttAgencies/Index";
 
 const Index = () => {
+  useEffect(() => {
+    const element = document.getElementById("overviewPage");
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  }, []);
   return (
     <>
       <article
