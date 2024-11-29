@@ -622,7 +622,7 @@ const NavBar = () => {
                                           <Link to="#">External Audit</Link>
                                         </h4>
                                         <span className="sub-title">
-                                          Registered Auditors in
+                                          Registered Auditors
                                         </span>
                                       </div>
                                     </li>
@@ -646,8 +646,7 @@ const NavBar = () => {
                                             className="mega-menu-link"
                                             to="/auditing"
                                           >
-                                            Dubai Multi Commodities Centre
-                                            (DMCC)
+                                            Financial Statement Audit
                                           </Link>
                                         </li>
                                         {/* Display the list of external auditors */}
@@ -693,29 +692,7 @@ const NavBar = () => {
                                         {/* Display the list of internal auditors */}
                                       </ul>
                                     </li>
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-69"
-                                      id="mega-menu-item-custom_html-69"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <h4>
-                                          <Link to="/auditing/icv-certification">
-                                            ICV Certification
-                                          </Link>
-                                        </h4>
-                                      </div>
-                                    </li>
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-35744"
-                                      id="mega-menu-item-35744"
-                                    >
-                                      <Link
-                                        className="mega-menu-link"
-                                        to="/auditing/icv-certification"
-                                      >
-                                        ICV Certification
-                                      </Link>
-                                    </li>
+                                    
                                   </ul>
                                 </li>
                               </ul>
@@ -973,177 +950,7 @@ const NavBar = () => {
                                     </li>
                                   </ul>
                                 </li>
-                                <li
-                                  className="mega-menu-column mega-menu-columns-4-of-12"
-                                  id="mega-menu-36921-0-1"
-                                >
-                                  <ul className="mega-sub-menu">
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-30"
-                                      id="mega-menu-item-custom_html-30"
-                                    >
-                                      <div className="textwidget custom-html-widget">
-                                        <h4>
-                                          <a href="#">VAT Services</a>
-                                        </h4>
-                                      </div>
-                                    </li>
-                                    <li
-                                      className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-36925"
-                                      id="mega-menu-item-36925"
-                                    >
-                                      <a className="mega-menu-link" href="#">
-                                        VAT Services
-                                        <span className="mega-indicator"></span>
-                                      </a>
-                                      <ul className="mega-sub-menu">
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36949"
-                                          id="mega-menu-item-36949"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT and Tax Advisory
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36950"
-                                          id="mega-menu-item-36950"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT Implementation
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36951"
-                                          id="mega-menu-item-36951"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT Refund at Airport
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36952"
-                                          id="mega-menu-item-36952"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT Consultants
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36953"
-                                          id="mega-menu-item-36953"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            Key VAT Points
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36954"
-                                          id="mega-menu-item-36954"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT Fines
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36955"
-                                          id="mega-menu-item-36955"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            Value Added Tax (FAQ)
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36956"
-                                          id="mega-menu-item-36956"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT Assessment and Appeals
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36957"
-                                          id="mega-menu-item-36957"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT Compliance Audit
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36958"
-                                          id="mega-menu-item-36958"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT Returns Filing
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36959"
-                                          id="mega-menu-item-36959"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT Training
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36960"
-                                          id="mega-menu-item-36960"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            VAT in UAE
-                                          </Link>
-                                        </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-36961"
-                                          id="mega-menu-item-36961"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/advisory-&-consultation"
-                                          >
-                                            International Taxation
-                                          </Link>
-                                        </li>
-                                      </ul>
-                                    </li>
-                                  </ul>
-                                </li>
+                               
                                 <li
                                   className="mega-menu-column mega-menu-columns-4-of-12"
                                   id="mega-menu-36921-0-2"

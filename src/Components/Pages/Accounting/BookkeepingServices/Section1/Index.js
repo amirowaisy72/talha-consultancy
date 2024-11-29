@@ -46,7 +46,7 @@ const Index = () => {
                         <div className="elementor-widget-container">
                           {" "}
                           <h2 className="elementor-heading-title elementor-size-default">
-                            Bookkeeping Services in Dubai
+                            Bookkeeping Services
                           </h2>{" "}
                         </div>{" "}
                       </div>{" "}

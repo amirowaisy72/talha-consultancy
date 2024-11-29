@@ -9,7 +9,7 @@ const Index = () => {
         id="mega-menu-1095-1-2"
       >
         <ul className="mega-sub-menu">
-          <li
+          {/* <li
             className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-43"
             id="mega-menu-item-custom_html-43"
           >
@@ -34,7 +34,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-          </li>
+          </li> */}
           <li
             className="mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-44"
             id="mega-menu-item-custom_html-44"

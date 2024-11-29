@@ -1,4 +1,1 @@
-Task for yesterday
-
-complete components breaking process for home page
-customize/resolve quick chat section
+Remove "Dubai, UAE" from all over the project
