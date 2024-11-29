@@ -51,7 +51,7 @@ const Index = () => {
               >
                 <div className="elementor-widget-container">
                   <h2 className="elementor-heading-title elementor-size-default">
-                    Offshore Company Registration in Dubai
+                    Offshore Company Registration
                   </h2>{" "}
                 </div>
               </div>
@@ -63,7 +63,7 @@ const Index = () => {
               >
                 <div className="elementor-widget-container">
                   <h6 className="elementor-heading-title elementor-size-default">
-                    Unique features of offshore company formation in Dubai, UAE
+                    Unique features of offshore company formation
                   </h6>{" "}
                 </div>
               </div>

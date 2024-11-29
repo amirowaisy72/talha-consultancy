@@ -25,7 +25,7 @@ const Index = () => {
               >
                 <div className="elementor-widget-container">
                   <h2 className="elementor-heading-title elementor-size-default">
-                    What We Do
+                    What We Do (2/2 equal)
                   </h2>
                 </div>
               </div>

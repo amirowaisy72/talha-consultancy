@@ -4,7 +4,7 @@ import Options from "./Options";
 const Index = () => {
   return (
     <>
-      <section
+      {/* <section
         className="elementor-section elementor-top-section elementor-element elementor-element-dd71bd3 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="dd71bd3"
         data-element_type="section"
@@ -47,7 +47,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

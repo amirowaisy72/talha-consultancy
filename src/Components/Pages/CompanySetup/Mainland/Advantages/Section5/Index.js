@@ -3,6 +3,9 @@ import React from "react";
 const Index = () => {
   return (
     <>
+      <center>
+        <h2>Improve its design</h2>
+      </center>
       <section
         className="elementor-section elementor-top-section elementor-element elementor-element-b13ab9f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="b13ab9f"

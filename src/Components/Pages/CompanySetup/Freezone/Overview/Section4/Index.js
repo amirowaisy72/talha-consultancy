@@ -46,15 +46,7 @@ const Index = () => {
                                   Start your own business
                                 </span>
                               </span>
-                              <span className="uael-adv-heading-stack">
-                                <span
-                                  className="elementor-inline-editing uael-dual-heading-text uael-highlight-text"
-                                  data-elementor-setting-key="second_heading_text"
-                                  data-elementor-inline-editing-toolbar="basic"
-                                >
-                                  in UAE from AED 5,500
-                                </span>
-                              </span>
+                             
                             </h3>
                           </div>
                         </div>

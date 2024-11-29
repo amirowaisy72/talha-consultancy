@@ -54,18 +54,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div style={{ marginBottom: "30px" }}>
-              <center>
-                <GovtAgencies
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-around",
-                    alignItems: "center",
-                    flexWrap: "wrap",
-                  }}
-                ></GovtAgencies>
-              </center>
-            </div>
+           
           </div>
           <span className="cp-load-after-post"></span>
         </div>

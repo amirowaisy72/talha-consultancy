@@ -37,7 +37,7 @@ const Index = () => {
               >
                 <div className="elementor-widget-container">
                   <p>
-                    <strong>Offshore company formation in Dubai</strong>
+                    <strong>Offshore company formation</strong>
                      is a fast-growing sector of new{" "}
                     <a
                       title="Business Setup in Dubai"
@@ -64,7 +64,7 @@ const Index = () => {
                     <strong>
                       offshore{" "}
                       <a href="../business-setup-dubai/index.html">
-                        company registration in Dubai
+                        company registration
                       </a>
                     </strong>
                     , favored considerations include the ability to create or

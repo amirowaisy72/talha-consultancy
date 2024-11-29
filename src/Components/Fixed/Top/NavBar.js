@@ -1319,7 +1319,7 @@ const NavBar = () => {
                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-35734"
                           id="mega-menu-item-35734"
                         >
-                          <Link
+                          {/* <Link
                             className="mega-menu-link"
                             to="#"
                             aria-haspopup="true"
@@ -1328,7 +1328,7 @@ const NavBar = () => {
                           >
                             Legal Services
                             <span className="mega-indicator"></span>
-                          </Link>
+                          </Link> */}
                           <ul className="mega-sub-menu">
                             <li
                               className="mega-menu-row"

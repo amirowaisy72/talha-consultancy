@@ -57,8 +57,8 @@ const Index = () => {
               </center>
             </div>
             <Section3 />
-            <Section4 />
-            <Section5 />
+            {/* <Section4 /> */}
+            {/* <Section5 /> */}
           </div>
           <span className="cp-load-after-post"></span>
         </div>

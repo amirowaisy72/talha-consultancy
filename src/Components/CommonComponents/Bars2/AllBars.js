@@ -44,25 +44,6 @@ const AllBars = () => {
                 </NavLink>
               </li>
               <li
-                className="menu-item menu-item-has-children parent parent-has-no-child elementor-repeater-item-7846707"
-                data-dropdown-width="default"
-                data-dropdown-pos="left"
-              >
-                <NavLink
-                  exact
-                  to="/mainland/licensing-categories"
-                  className="uael-menu-item"
-                  style={{
-                    border: location.pathname === '/mainland/licensing-categories' ? '2px solid black' : ''  
-                  }}
-                >
-                  Licensing Categories
-                  <span className="uael-menu-toggle sub-arrow parent-item">
-                    <i className="fa"></i>
-                  </span>
-                </NavLink>
-              </li>
-              <li
                 className="menu-item menu-item-has-children parent parent-has-no-child elementor-repeater-item-3b98fb8"
                 data-dropdown-width="default"
                 data-dropdown-pos="left"

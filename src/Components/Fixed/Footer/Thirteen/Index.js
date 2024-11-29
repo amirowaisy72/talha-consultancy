@@ -40,7 +40,7 @@ const Index = () => {
                       >
                         <div className="elementor-widget-container">
                           <h2 className="elementor-heading-title elementor-size-default">
-                            START YOUR BUSINESS IN DUBAI
+                            START YOUR BUSINESS
                           </h2>
                         </div>
                       </div>
@@ -58,7 +58,7 @@ const Index = () => {
                             >
                               <span className="elementor-button-content-wrapper">
                                 <span className="elementor-button-text">
-                                  VAT Expert Consultation
+                                  Expert Consultation
                                 </span>
                               </span>
                             </a>

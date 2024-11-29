@@ -37,7 +37,7 @@ const Index = () => {
             <Six />
             <Seven />
             <Eight />
-            <GovtAgencies />
+            {/* <GovtAgencies /> */}
             <Ten />
             <ContactusForm />
             <Twelve />

@@ -57,16 +57,7 @@ const Index = () => {
                 <ContactusForm />
               </div>
             </div>
-            <center>
-              <GovtAgencies
-                style={{
-                  display: "flex",
-                  justifyContent: "space-around",
-                  alignItems: "center",
-                  flexWrap: "wrap",
-                }}
-              ></GovtAgencies>
-            </center>
+            
           </div>
           <span className="cp-load-after-post"></span>
         </div>

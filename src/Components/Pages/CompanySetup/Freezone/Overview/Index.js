@@ -56,7 +56,7 @@ const Index = () => {
             {/* <Section11 /> */}
             {/* <Section12 /> */}
             <Section13 />
-            <Section14 />
+            {/* <Section14 /> */}
             <div style={{ marginBottom: "30px" }}>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <div

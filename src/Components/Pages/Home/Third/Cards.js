@@ -98,7 +98,7 @@ const Cards = () => {
                   </div>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="elementor-element elementor-element-ad4b9b2 solution e-transform elementor-widget elementor-widget-uael-infobox"
                 data-id="ad4b9b2"
                 data-element_type="widget"
@@ -178,7 +178,7 @@ const Cards = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -268,7 +268,7 @@ const Cards = () => {
                   </div>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="elementor-element elementor-element-4d808c8a solution e-transform elementor-widget elementor-widget-uael-infobox"
                 data-id="4d808c8a"
                 data-element_type="widget"
@@ -348,7 +348,7 @@ const Cards = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -478,7 +478,7 @@ const Cards = () => {
                             data-elementor-setting-key="infobox_title"
                             data-elementor-inline-editing-toolbar="basic"
                           >
-                            Liquidation
+                            Payroll Services
                           </h3>
                         </div>
                         <div className="uael-infobox-text-wrap">
@@ -494,7 +494,7 @@ const Cards = () => {
                           </div>
                           <div className="uael-infobox-cta-link-style">
                             <Link
-                              href="#"
+                              to="/accounting/payroll-services"
                               className="uael-infobox-cta-link"
                             >
                               <span
