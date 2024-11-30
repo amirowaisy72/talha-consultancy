@@ -10,9 +10,7 @@ const Index = () => {
         data-widget_type="image.default"
       >
         <div className="elementor-widget-container">
-          <a
-            href="#"
-          >
+          
             <img
               loading="lazy"
               decoding="async"
@@ -23,7 +21,6 @@ const Index = () => {
               alt
               sizes="(max-width: 1873px) 100vw, 1873px"
             />
-          </a>
         </div>
       </div>
     </>

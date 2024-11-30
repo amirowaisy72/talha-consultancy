@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./output.css";
-import Section1 from "./Section1/Index";
 import Bars2 from "../../../../CommonComponents/Bars2/Index";
 import Section2 from "./Section2/Index";
 import Section3 from "./Section3/Index";
@@ -33,7 +32,6 @@ const Index = () => {
             data-elementor-id="30512"
             className="elementor elementor-30512"
           >
-            <Section1 />
             <Bars2 />
             <Section2 />
             <Section3 />

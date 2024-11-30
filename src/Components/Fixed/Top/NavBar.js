@@ -240,17 +240,7 @@ const NavBar = () => {
                                             Company Type
                                           </Link>
                                         </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37492"
-                                          id="mega-menu-item-37492"
-                                        >
-                                          <Link
-                                            className="mega-menu-link"
-                                            to="/mainland/dvantages"
-                                          >
-                                            Advantages
-                                          </Link>
-                                        </li>
+                                        
                                         <li
                                           className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37493"
                                           id="mega-menu-item-37493"
@@ -355,25 +345,13 @@ const NavBar = () => {
                                             Free Consultation
                                           </Link>
                                         </li>
-                                        <li
-                                          className="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-37499"
-                                          id="mega-menu-item-37499"
-                                        >
-                                          <a
-                                            target="_blank"
-                                            className="mega-menu-link"
-                                            href="#"
-                                          >
-                                            Offers
-                                          </a>
-                                        </li>
                                       </ul>
                                     </li>
                                   </ul>
                                 </li>
                               </ul>
                             </li>
-                            <li className="mega-menu-row" id="mega-menu-408-1">
+                            {/* <li className="mega-menu-row" id="mega-menu-408-1">
                               <ul className="mega-sub-menu">
                                 <li
                                   className="mega-menu-column mega-menu-columns-8-of-12"
@@ -442,7 +420,7 @@ const NavBar = () => {
                                   </ul>
                                 </li>
                               </ul>
-                            </li>
+                            </li> */}
                             <NavBottom />
                           </ul>
                         </li>

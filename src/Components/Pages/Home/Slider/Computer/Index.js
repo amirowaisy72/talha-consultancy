@@ -4,7 +4,6 @@ const Index = () => {
   return (
     <>
       <div className="elementor-widget-container">
-        <a href="#">
           <img
             fetchpriority="high"
             decoding="async"
@@ -15,7 +14,6 @@ const Index = () => {
             alt
             sizes="(max-width: 2048px) 100vw, 2048px"
           />
-        </a>
       </div>
     </>
   );

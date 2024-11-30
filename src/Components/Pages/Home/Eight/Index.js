@@ -54,7 +54,6 @@ const Index = () => {
                     data-testimonial-id="39691"
                     data-layout="slider"
                   >
-                    <span style={{color:"white"}}>load here</span>
                     <div className="sp-testimonial-carousel-wrapper">
                       <div
                         id="sp-testimonial-pro-39691"

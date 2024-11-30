@@ -1,0 +1,26 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Set the background color */
+  border-radius: 50%; /* Optional: Make them circular */
+  width: 40px; /* Adjust size if needed */
+  height: 40px;
+}
+.carousel-indicators > [data-bs-target] {
+    background-color: black; /* Change dot color */
+    width: 12px; /* Adjust size */
+    height: 12px;
+    border-radius: 50%; /* Make dots circular */
+    opacity: 0.7; /* Optional: Add transparency */
+  }
+  
+  .carousel-indicators > .active {
+    background-color: red; /* Change the color for the active dot */
+    opacity: 1;
+  }
+  .carousel {
+    background-color: #f8f9fa; /* Light gray */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  }
+    

@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
 import "./output.css";
-import Section1 from "./Section1/Index";
 import Bars1 from "../../../../CommonComponents/Bars1/Index";
 import Section2 from "./Section2/Index";
 import Section3 from "./Section3/Index";
 import ContactusForm from "../../../../CommonComponents/ContactUseForm/Index";
-import GovtAgencies from "../../../../CommonComponents/GovttAgencies/Index";
 
 const Index = () => {
   useEffect(() => {
@@ -33,7 +31,6 @@ const Index = () => {
             data-elementor-id="30512"
             className="elementor elementor-30512"
           >
-            <Section1 />
             <Bars1 />
             <Section2 />
             <Section3 />

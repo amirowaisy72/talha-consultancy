@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Section1 from "./Section1/Index";
 import Bars1 from "./Bars/Index";
 import AboutCompany from "../../../Home/Second/Index";
 import GovtAgencies from "../../../../CommonComponents/GovttAgencies/Index";
@@ -29,7 +28,6 @@ const Index = () => {
             data-elementor-id="30512"
             className="elementor elementor-30512"
           >
-            <Section1 />
             <div style={{ marginBottom: "30px" }}>
               <Bars1 />
             </div>

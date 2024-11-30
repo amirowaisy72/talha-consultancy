@@ -23,7 +23,7 @@ const Left = () => {
                     data-elementor-setting-key="heading_title"
                     data-elementor-inline-editing-toolbar="basic"
                   >
-                    Request for Our (all countries list)
+                    Request for Our
                   </span>
                 </h2>
                 <div

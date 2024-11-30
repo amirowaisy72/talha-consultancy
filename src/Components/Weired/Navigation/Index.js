@@ -111,11 +111,6 @@ const Index = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link className="nav-link" to="/mainland/dvantages">
-                            Advantages
-                          </Link>
-                        </li>
-                        <li>
                           <Link
                             className="nav-link"
                             to="/mainland/consultation"
@@ -167,15 +162,10 @@ const Index = () => {
                             Free Consultation
                           </Link>
                         </li>
-                        <li>
-                          <a className="nav-link" href="#">
-                            Offers
-                          </a>
-                        </li>
                       </ul>
                     </div>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link className="nav-link" to="/otherServices">
                       Other Services
                     </Link>
@@ -184,7 +174,7 @@ const Index = () => {
                     <a className="nav-link" href="#">
                       Free Consultation
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </li>

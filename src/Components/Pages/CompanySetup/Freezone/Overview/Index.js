@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./output.css";
-import Section1 from "./Section1/Index";
 import Bars1 from "../../../../CommonComponents/Bars1/Index";
 import Section3 from "./Section3/Index";
 import Section4 from "./Section4/Index";
@@ -10,10 +9,7 @@ import Section7 from "./Section7/Index";
 import Section8 from "./Section8/Index";
 import Section9 from "./Section9/Index";
 import Section10 from "./Section10/Index";
-import Section11 from "./Section11/Index";
-import Section12 from "./Section12/Index";
 import Section13 from "./Section13/Index";
-import Section14 from "./Section14/Index";
 import ContactusForm from "../../../../CommonComponents/ContactUseForm/Index";
 import Section16 from "./Section16/Index";
 
@@ -43,7 +39,6 @@ const Index = () => {
             data-elementor-id="30512"
             className="elementor elementor-30512"
           >
-            <Section1 />
             <Bars1 />
             <Section3 />
             <Section4 />
